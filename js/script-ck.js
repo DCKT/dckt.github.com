@@ -1,1 +1,1 @@
-$(document).ready(function(){$("a#home").click(function(){alert("hfe")})});
+$(document).ready(function(){$("a#home").click(function(){$(".appli").fadeOut("normal")});$("img#contact").click(function(){alert("tet")})});
