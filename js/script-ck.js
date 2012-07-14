@@ -1,1 +1,1 @@
-$(document).ready(function(){$("a#home").click(function(){$(".appli").fadeOut("normal")});$("img#contact").click(function(){alert("tet")})});
+$(document).ready(function(){$("#right-content a#home").click(function(){$(".window-appli").fadeOut("normal")});$("#right-content #dock ul li").click(function(){$(".window-appli").fadeIn("normal")})});

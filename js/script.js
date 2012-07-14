@@ -1,12 +1,12 @@
 $(document).ready(function (){
 
-	$("a#home").click(function(){
-			$(".appli").fadeOut("normal");
+	$("#right-content a#home").click(function(){
+		$(".window-appli").fadeOut("normal");
 	});
 
 
-	$("img#contact").click(function(){
-			alert('tet');
+	$("#right-content #dock ul li").click(function(){
+		$(".window-appli").fadeIn("normal");
 	});
 
 });
