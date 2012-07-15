@@ -1,1 +1,1 @@
-$(document).ready(function(){$("#right-content a#home").click(function(){$(".window-appli").fadeOut("normal")});$("#right-content #dock ul li").click(function(){$(".window-appli").fadeIn("normal")})});
+$(document).ready(function(){$("#right-content a#home").click(function(){$(".window-appli").fadeOut("normal")});$("#right-content #dock ul li").click(function(){var a=$(this).attr("id");$("#test"+a).fadeIn("normal")});$("#right-content #applications ul li").click(function(){$(this).attr("id")=="2"?alert("reussi"):$(".window-appli").fadeIn("normal")})});
