@@ -1,0 +1,1 @@
+$(document).ready(function(){var a,b;$("table#left_table tr").hover(function(){a=$(this).attr("id");b=$(this).attr("data-content");$(this).after("<div class='info info"+a+"'>"+b+"</div>")},function(){$(".info"+a).remove()})});

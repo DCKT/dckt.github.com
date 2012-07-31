@@ -1,0 +1,256 @@
+@font-face {
+  font-family: "GearedSlab-Light";
+  src: url('../font/GearedSlab-Light.ttf');
+}
+@font-face {
+  font-family: "Fontin";
+  src: url('../font/FontinSans_Cyrillic_R_46b.otf');
+}
+@font-face {
+  font-family: "SilverFake";
+  src: url('../font/Silverfake.otf');
+}
+@font-face {
+  font-family: "DoradoHeadline";
+  src: url('../font/DoradoHeadline.ttf');
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/style/bg.png');
+}
+html h1,
+body h1 {
+  font-family: "DoradoHeadline", Arial, Serif;
+}
+nav {
+  z-index: 100000000;
+  position: fixed;
+  width: 100%;
+}
+nav ul {
+  width: 900px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 27px 27px 27px 27px;
+  -moz-border-image: url('../images/style/border.png') 27 27 27 27 repeat;
+  -webkit-border-image: url('../images/style/border.png') 27 27 27 27 repeat;
+  -o-border-image: url('../images/style/border.png') 27 27 27 27 repeat;
+  border-image: url('../images/style/border.png') 27 27 27 27 fill repeat;
+  background-image: url('../images/style/bg.png');
+}
+nav ul a {
+  display: inline-block;
+}
+nav ul a li {
+  display: inline-block;
+  width: 130px;
+  height: 30px;
+  font-family: "GearedSlab-Light";
+  font-size: 22px;
+  text-align: center;
+  padding-top: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #242424;
+}
+nav ul a li:hover {
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  transition: 0.5s all;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+nav ul a:first-child {
+  margin-left: -40px;
+}
+nav ul a#third {
+  padding-right: 130px;
+}
+section {
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+section .container {
+  width: 100%;
+  height: 100%;
+}
+section .weft {
+  width: 80%;
+  min-width: 900px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+section #contents1 .border-top {
+  min-width: 1024px;
+  width: 80%;
+  margin-top: 34%;
+  position: absolute;
+}
+section #contents1 .border-top img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+section #contents1 .border-bottom {
+  width: 80%;
+  min-width: 1024px;
+  margin-top: 88%;
+  position: absolute;
+}
+section #contents1 .border-bottom img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+section #contents1 #presentation {
+  padding-top: 50px;
+  position: absolute;
+  margin-top: 32%;
+  width: 1024px;
+  height: auto;
+  min-height: 300px;
+}
+section #contents1 #presentation h1 {
+  margin: 0;
+  padding: 0;
+}
+section #contents1 #presentation p {
+  padding: 15px;
+  padding-left: 40px;
+  font-family: "Fontin";
+  line-height: 21px;
+  width: 85%;
+}
+section #contents1 #presentation p img {
+  float: left;
+  width: 170px;
+  height: 170px;
+  margin-right: 25px;
+  margin-bottom: 10px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  border: 5px solid white;
+  -webkit-box-shadow: 1px 1px 12px #242424;
+  -moz-box-shadow: 1px 1px 12px #242424;
+  -o-box-shadow: 1px 1px 12px #242424;
+  box-shadow: 1px 1px 12px #242424;
+}
+section #contents2 #skill {
+  padding-top: 50px;
+  position: absolute;
+  margin-top: 22%;
+  width: 1024px;
+  height: auto;
+  min-height: 300px;
+}
+section #contents2 #skill .info {
+  position: absolute;
+  width: 300px;
+  height: 190px;
+  background-color: white;
+  border: 3px solid #484848;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  margin-top: -80px;
+  margin-left: 370px;
+}
+section #contents2 #skill .info h1 {
+  text-shadow: 1px -1px 2px #000000;
+}
+section #contents2 #skill .info p {
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 5px;
+  font-size: 16px;
+  font-family: "GearedSlab-Light";
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+section #contents2 #skill .info p img {
+  width: 60px;
+  height: 63px;
+  float: left;
+  clear: left;
+  padding-right: 9px;
+}
+section #contents2 #skill .info blockquote {
+  margin-left: 15px;
+  font-size: 18px;
+  width: 90%;
+  font-family: "GearedSlab-Light";
+}
+section #contents2 #skill h1 {
+  position: absolute;
+  margin-top: -30px;
+}
+section #contents2 #skill small {
+  position: absolute;
+  margin-top: -15px;
+  margin-left: 230px;
+  font-size: 14px;
+}
+section #contents2 #skill table {
+  margin-top: 70px;
+}
+section #contents2 #skill table#left_table {
+  float: left;
+  margin-left: 7%;
+  border-collapse: collapse;
+  margin-right: 100px;
+}
+section #contents2 #skill table#left_table tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  height: 50px;
+}
+section #contents2 #skill table#left_table tr th {
+  padding-right: 80px;
+}
+section #contents2 #skill table#right_table {
+  border-collapse: collapse;
+}
+section #contents2 #skill table#right_table tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  height: 50px;
+}
+section #contents2 #skill table#right_table tr th {
+  padding-right: 80px;
+}
+section #contents2 #skill .progress {
+  width: 200px;
+  height: 24px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.6);
+}
+section #contents2 #skill .progress .percent {
+  height: 23px;
+  padding-top: 1px;
+  -webkit-border-radius: 3px 0px 0px 3px;
+  -moz-border-radius: 3px 0px 0px 3px;
+  -o-border-radius: 3px 0px 0px 3px;
+  border-radius: 3px 0px 0px 3px;
+  background-color: rgba(20, 20, 20, 0.6);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}

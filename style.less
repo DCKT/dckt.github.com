@@ -1,0 +1,262 @@
+@import "less/function.less";
+
+
+@font-face{
+	font-family: "GearedSlab-Light";
+	src:url('../font/GearedSlab-Light.ttf');
+}
+@font-face {
+	font-family: "Fontin";
+	src:url('../font/FontinSans_Cyrillic_R_46b.otf');
+}
+@font-face {
+	font-family: "SilverFake";
+	src:url('../font/Silverfake.otf');
+}
+
+@font-face {
+	font-family: "DoradoHeadline";
+	src:url('../font/DoradoHeadline.ttf');
+}
+html, body{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	background-image: url('../images/style/bg.png');
+	
+	h1 {
+		font-family: "DoradoHeadline",Arial,Serif;
+	}	
+}
+
+nav {
+	z-index: 100000000;
+	position: fixed;
+	width:100%;
+
+	ul {
+		width:900px;
+		display: block;
+		.center();
+		.border-image();
+		background-image: url('../images/style/bg.png');
+
+		a {
+			display: inline-block;
+			li {
+				display: inline-block;
+				width:130px;
+				height:30px;
+				font-family: "GearedSlab-Light";
+				font-size: 22px;
+				text-align: center;
+				padding-top: 10px;
+				cursor: pointer;
+				text-decoration: none;
+				color:#242424;
+				&:hover {
+					.transition(0.5s);
+					background-color: rgba(0,0,0,0.2);
+				}
+			}
+
+			&:first-child {
+				margin-left: -40px;
+			}
+		}
+
+		a#third {
+			padding-right:130px;
+
+		}
+		
+	}
+}
+
+section {
+	z-index: 10;
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100%;
+
+	.container {
+		width:100%;
+		height:100%;
+	}
+	.weft {
+		width:80%;
+		min-width: 900px;
+		height:100%;
+		.center();
+
+	}
+	#contents1 {
+		.border-top {
+			min-width: 1024px;
+			width:80%;
+			margin-top:34%;
+			position: absolute;
+			img {
+				display: block;
+				.center();
+			}
+			
+		}
+		.border-bottom {
+			
+			width:80%;
+			min-width: 1024px;
+			margin-top:88%;
+			position: absolute;
+			img {
+				display: block;
+				.center();
+			}
+			
+		}
+
+		#presentation {
+			padding-top: 50px;
+			position:absolute;
+			margin-top:32%;
+			width:1024px;
+			height:auto;
+			min-height: 300px;
+
+			h1 {
+
+				margin: 0;
+				padding:0;
+			}
+			p {
+				padding:15px;
+				padding-left: 40px;
+				font-family: "Fontin";
+				line-height: 21px;
+				width:85%;
+
+				img {
+					float:left;
+					width:170px;
+					height:170px;
+					margin-right: 25px;
+					margin-bottom: 10px;
+					.border-radius(2px);
+					border:5px solid white;
+					.box-shadow(1px 1px 12px #242424)
+				}
+			}
+		}
+	}
+	#contents2 {
+		#skill {
+
+			.info {
+				position: absolute;
+				width:300px;
+				height:190px;
+				background-color: white;
+				border:3px solid #484848;
+				.border-radius(2px);
+				margin-top: -80px;
+				margin-left:370px;
+
+				h1 {
+					text-shadow:1px -1px 2px black;
+				}
+
+				p {
+
+					margin-top:15px;
+					margin-left: 10px;
+					margin-right: 5px;
+					font-size: 16px;
+					font-family: "GearedSlab-Light";
+					padding-bottom: 10px;
+					border-bottom: 1px solid rgba(0,0,0,0.3);
+
+					img {
+						width:60px;
+						height:63px;
+						float:left;
+						clear:left;
+						padding-right:9px;
+					}
+				}
+				blockquote {
+					margin-left: 15px;
+					font-size: 18px;
+					width:90%;
+					font-family: "GearedSlab-Light";
+				} 
+			
+			}
+			padding-top: 50px;
+
+			position:absolute;
+			margin-top:22%;
+			width:1024px;
+			height:auto;
+			min-height: 300px;
+			h1 {
+				position: absolute;
+				margin-top: -30px;
+
+			}
+			small {
+				position: absolute;
+				margin-top:-15px;
+				margin-left:230px;
+				font-size: 14px;
+			}
+			table {
+				margin-top:70px;
+			}
+			table#left_table {
+				float:left;
+				margin-left:7%;
+				border-collapse: collapse;
+				margin-right:100px;
+				tr {
+					border-bottom: 1px solid rgba(0,0,0,0.1);
+					height:50px;
+
+					th {
+						padding-right: 80px;
+					}
+				}
+			}
+			table#right_table {
+				border-collapse: collapse;
+				tr {
+					border-bottom: 1px solid rgba(0,0,0,0.1);
+					height:50px;
+
+					th {
+						padding-right: 80px;
+					}
+				}
+			}
+
+			.progress {
+				width:200px;
+				height:24px;
+				.border-radius(3px);
+				.box-shadow(inset 0 1px 2px rgba(0,0,0,.1));
+				background-color:rgba(255,255,255,0.6);
+
+				.percent {
+					height:23px;
+					padding-top:1px;
+					.border-radius(3px 0px 0px 3px);
+					background-color: rgba(20,20,20,0.6);
+					.box-shadow(inset 0 1px 2px rgba(0,0,0,.1));
+				}
+			}
+
+		}
+
+	}
+}
