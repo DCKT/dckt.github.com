@@ -32,7 +32,7 @@ nav {
   width: 100%;
 }
 nav ul {
-  width: 900px;
+  width: 930px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -69,7 +69,21 @@ nav ul a:first-child {
   margin-left: -40px;
 }
 nav ul a#third {
-  padding-right: 130px;
+  position: absolute;
+  margin-top: -58px;
+  margin-right: 100px;
+  height: 300px;
+  cursor: normal;
+}
+nav ul a#third li {
+  cursor: normal;
+}
+nav ul a#third li:hover {
+  background-color: none !important;
+  cursor: normal;
+}
+nav ul a#fourth {
+  margin-left: 150px;
 }
 section {
   z-index: 10;
