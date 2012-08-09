@@ -36,7 +36,7 @@ nav {
 	width:100%;
 
 	ul {
-		width:900px;
+		width:930px;
 		display: block;
 		.center();
 		.border-image();
@@ -67,8 +67,21 @@ nav {
 		}
 
 		a#third {
-			padding-right:130px;
-
+			position: absolute;
+			margin-top:-58px;
+			margin-right:100px;
+			height:300px;
+			cursor: normal;
+			li{
+				cursor: normal;
+				&:hover{
+					background-color: none !important;
+					cursor: normal;
+				}
+			}
+		}
+		a#fourth {
+			margin-left:150px;
 		}
 		
 	}
