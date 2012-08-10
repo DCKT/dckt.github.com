@@ -1,5 +1,5 @@
 @import "less/function.less";
-
+@import "less/lib.less";
 
 @font-face{
 	font-family: "GearedSlab-Light";
@@ -59,6 +59,9 @@ nav {
 					.transition(0.5s);
 					background-color: rgba(0,0,0,0.2);
 				}
+				&:target {
+					background-color: blue;
+				}
 			}
 
 			&:first-child {
@@ -68,15 +71,15 @@ nav {
 
 		a#third {
 			position: absolute;
-			margin-top:-58px;
+			margin-top:-59px;
 			margin-right:100px;
-			height:300px;
-			cursor: normal;
+			height:10px;
+			cursor: default;
 			li{
-				cursor: normal;
+				cursor: default;
 				&:hover{
-					background-color: none !important;
-					cursor: normal;
+					background-color: #eddfcf;
+					cursor: default;
 				}
 			}
 		}
@@ -103,43 +106,10 @@ section {
 		min-width: 900px;
 		height:100%;
 		.center();
-
 	}
 	#contents1 {
-		.border-top {
-			min-width: 1024px;
-			width:80%;
-			margin-top:34%;
-			position: absolute;
-			img {
-				display: block;
-				.center();
-			}
-			
-		}
-		.border-bottom {
-			
-			width:80%;
-			min-width: 1024px;
-			margin-top:88%;
-			position: absolute;
-			img {
-				display: block;
-				.center();
-			}
-			
-		}
-
 		#presentation {
-			padding-top: 50px;
-			position:absolute;
-			margin-top:32%;
-			width:1024px;
-			height:auto;
-			min-height: 300px;
-
 			h1 {
-
 				margin: 0;
 				padding:0;
 			}
@@ -165,7 +135,13 @@ section {
 	}
 	#contents2 {
 		#skill {
-
+			padding-top: 50px;
+			position:absolute;
+			margin-top:22%;
+			width:1024px;
+			height:auto;
+			min-height: 300px;
+			
 			.info {
 				position: absolute;
 				width:300px;
@@ -175,13 +151,11 @@ section {
 				.border-radius(2px);
 				margin-top: -80px;
 				margin-left:370px;
-
+				z-index:100;
 				h1 {
 					text-shadow:1px -1px 2px black;
 				}
-
 				p {
-
 					margin-top:15px;
 					margin-left: 10px;
 					margin-right: 5px;
@@ -206,13 +180,7 @@ section {
 				} 
 			
 			}
-			padding-top: 50px;
-
-			position:absolute;
-			margin-top:22%;
-			width:1024px;
-			height:auto;
-			min-height: 300px;
+			
 			h1 {
 				position: absolute;
 				margin-top: -30px;
@@ -271,5 +239,75 @@ section {
 
 		}
 
+	}
+
+	#contents3 {
+		#real {
+			#realisations {
+				padding-top: 85px;
+				position:absolute;
+				margin-top:22%;
+				width:1024px;
+				height:auto;
+				min-height: 430px;
+				
+
+				#hide-tab {
+					width:1004px;
+					height:400px;
+					overflow: hidden;
+					position: absolute;
+					top:17%;
+					left:5px;
+					table {
+						position: absolute;
+						width:1250px;
+						border-spacing:20px;
+						position: absolute;
+						left:0px;
+
+						tr {
+
+							margin-top: -15px;
+							td {
+								width:250px;
+								height:300px;
+								border:1px solid rgba(0,0,0,0.3);
+								margin:10px;
+								.border-radius(3px);
+								.box-shadow(0px 2px 2px rgba(0,0,0,0.2));
+								background-color:rgba(0,0,0,0.1);
+								cursor: pointer;
+								text-align: center;
+
+								h1 {
+									margin-top: -140px;
+								}
+							}
+						}
+					}	
+				}
+				#left-arrow {
+					margin-left:-55px;
+					margin-top: 140px;
+					width:60px;
+					height:40px;
+					cursor: pointer;
+					position: absolute;
+				}
+				#right-arrow {
+					margin-left:1010px;
+					margin-top: 140px;
+					width:60px;
+					height:40px;
+					cursor: pointer;
+					position: absolute;
+				}
+				#left-arrow img, #right-arrow img {
+					width:60px;
+					height:60px;
+				}
+			}
+		}
 	}
 }
