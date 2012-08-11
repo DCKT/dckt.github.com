@@ -199,24 +199,30 @@ section {
 				float:left;
 				margin-left:7%;
 				border-collapse: collapse;
-				margin-right:100px;
+				margin-right:50px;
 				tr {
 					border-bottom: 1px solid rgba(0,0,0,0.1);
 					height:50px;
-
+					&:hover {
+						background-color: rgba(0,0,0,0.2);
+					}
 					th {
 						padding-right: 80px;
 					}
 				}
 			}
 			table#right_table {
+				margin-left:10px;
 				border-collapse: collapse;
 				tr {
+					&:hover {
+						background-color: rgba(0,0,0,0.2);
+					}
 					border-bottom: 1px solid rgba(0,0,0,0.1);
 					height:50px;
 
 					th {
-						padding-right: 80px;
+						padding-right: 100px;
 					}
 				}
 			}
@@ -261,7 +267,7 @@ section {
 					left:5px;
 					table {
 						position: absolute;
-						width:1250px;
+						width:1350px;
 						border-spacing:20px;
 						position: absolute;
 						left:0px;
@@ -282,6 +288,11 @@ section {
 
 								h1 {
 									margin-top: -140px;
+								}
+
+								&:hover {
+									.transition(all 0.2s);
+									.box-shadow(1px 1px 32px rgba(0,0,0,0.4));
 								}
 							}
 						}
