@@ -42,16 +42,25 @@ $(document).ready(function() {
 		}
 	});
 
-	$("table#table-test tr td").hover(
-		function(){
-			// thi = $(this);
-			// tp = thi.attr("id");
-			// thi.after("<div class='hover more"+tp+"'><h1>Blabla</h1></div>")
-		},
-		function(){
+	$("table#table-test tr td img").click(function(){
+		var element = $(this);
+		var path = element.attr("src");
+
 		
-		}
-	);
+		$("div.popup").append("<div id='hide-bg'></div><div id='window'><span id='exit'>X</span><img id='more-img' src='"+path+"' /></div>");
+		$("div.popup").show();
+		$("nav").css("z-index","0");
+	});
+
+	$("span#exit").live("click",function(){
+		$("img#more-img").remove();
+		$(this).remove();
+		$("#window, #hide-bg").remove();
+
+		$("div.popup").fadeOut();
+		$("nav").css("z-index","100000000000000");
+
+	});
 
 
 });
