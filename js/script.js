@@ -22,31 +22,36 @@ $(document).ready(function() {
 	);
 	
 	$("#left-arrow").click(function(){
-		console.debug(mov);
+		
 		if (mov >= 600)
 		{	
 			mov -= 100;
 			var x = parseInt($("#table-test").css("left"));
-			
 			position = x + 250;
-			console.debug(x);
 			$("#table-test").animate({ left: position }, 500 );
-			console.debug(mov);
 		}
 	});
 	$("#right-arrow").click(function(){
-		console.debug(mov);
-		if (mov <= 700)
+		
+		if (mov <= 600)
 		{	
 			mov += 100;
 			var x = parseInt($("#table-test").css("left"));
-			
 			position = x - 250;
-			console.debug(x);
 			$("#table-test").animate({ left: position }, 500 );
-			console.debug(mov);
 		}
 	});
+
+	$("table#table-test tr td").hover(
+		function(){
+			// thi = $(this);
+			// tp = thi.attr("id");
+			// thi.after("<div class='hover more"+tp+"'><h1>Blabla</h1></div>")
+		},
+		function(){
+		
+		}
+	);
 
 
 });
