@@ -11,7 +11,7 @@
 	<script type="text/javascript" src="js/scrollspy.js"></script>
 </head>
 <body>
-	
+
 	<nav>
 		<ul>
 			<a href="#accueil"><li>Accueil</li></a>
@@ -48,6 +48,13 @@
 				<div id="skill" class="information">
 					<h1>Compétences</h1><small>Survoler pour plus d'informations </small>
 
+					<div id="left-content">
+						<div class="test">
+							d
+
+						</div>
+					</div>
+					<!--
 					<table id="left_table">
 						<tr id="1" data-content="<p><img src='images/icone/html.png' alt='HTML5' />L'HTML5 est l'élément indispensable à la bonne structuration d'un site web. Il offre des technologies supplémentaires à son homologue l'xHTML</p><blockquote>Je considère mon niveau très bon car c'est un langage assez simple que j'utilise très régulièrement.</blockquote>">
 							<th>HTML5</th>
@@ -81,7 +88,7 @@
 								</div>
 							</td>
 						</tr>
-						<tr>
+						<tr id="5" data-content="<p><img src='images/icone/jquery.png' alt='JQuery' />Prenez la puissance du Javascript, alliez la à la simplicité du CSS et vous obtenez JQuery ! Un Framework JS génial !</p><blockquote>Je me sers principalement de JQuery, ses fonctions étant si nombreuses, il m'est difficile de toutes les connaitres.</blockquote>">
 							<th>JQuery</th>
 							<td>
 								<div class="progress">
@@ -89,7 +96,7 @@
 								</div>
 							</td>
 						</tr>
-						<tr>
+						<tr id="6" data-content="<p><img src='images/icone/php.png' alt='PHP' style='height:50px;width:60px' />PHP est mon premier langage serveur mais également objet que j'ai appris, il possède quelques failles mais un très bon manuel.</p><blockquote>Ce langage est très utile pour intéragir avec une base de donnée, mais également utilisé par le Framework Symfony.</blockquote>">
 							<th>PHP</th>
 							<td>
 								<div class="progress">
@@ -99,7 +106,8 @@
 						</tr>
 					</table>
 					<table id="right_table">
-						<tr>
+						<tr  id="7" data-content="<p><img src='images/icone/mysql.png' alt='MySQL' 
+							style='height:50px;width:55px' />C'est le SGBDR le plus utilisé, il est simple et efficace couplé à PHP, ce qui en fait sa force.</p><blockquote>Je possède de bonnes notions de SQL grâce à simplicité d'usage.</blockquote>">
 							<th>MySQL</th>
 							<td>
 								<div class="progress">
@@ -107,7 +115,8 @@
 								</div>
 							</td>
 						</tr>
-						<tr>
+						<tr id="8" data-content="<p><img src='images/icone/sf.png' alt='Symfony' 
+							style='height:50px;width:55px' />C'est LE Framework PHP du moment, il est très complet et permet de mettre en place des sites très complets.</p><blockquote>Je suis actuellement en cours d'auto-apprentissage.</blockquote>">
 							<th>Symfony</th>
 							<td>
 								<div class="progress">
@@ -115,7 +124,8 @@
 								</div>
 							</td>
 						</tr>
-						<tr>
+						<tr id="9" data-content="<p><img src='images/icone/git.png' alt='Git' 
+							style='height:50px;width:49px' />Travailler à plusieurs sur un projet peut vite devenir difficile et pénible. Notamment pour la répartition du travail afin d'éviter tout conflits.</p><blockquote>A force de l'utiliser pour la plupart de mes projets, comme ce site par exemple, je possède de très bonne notions.</blockquote>">
 							<th>Git</th>
 							<td>
 								<div class="progress">
@@ -140,6 +150,7 @@
 							</td>
 						</tr>
 					</table>
+				-->
 				</div>
 				<div class="border-bottom"><img src="images/style/sep.png" /></div>
 			</div>
@@ -147,23 +158,43 @@
 		</div>
 		<div id="contents3" class="container">
 			<div class="weft " id="real">
-				<div class="border-top"><img src="images/style/sep.png" /></div>
+				<div class="border-top">
+					<img src="images/style/sep.png" />
+				</div>
 				<div id="realisations" class="information">
-					<div class="popup">
-						
+					<div class="popup">	</div>
+					<div id="left-arrow">
+						<img src="images/left-arrow.png" alt="Left" />
 					</div>
-					<div id="left-arrow"><img src="images/left-arrow.png" alt="Left" /></div>
 					<div id="hide-tab">
 						<table id="table-test">
 							<tr>
 								<td id="pro">
-									<h1><a target="_blank" href="http://pro.dowith.fr">Pro.dowith.fr</a></h1>
-									<img src="images/real/pro.png" alt="Pro.dowith.fr" />
+									<div class="visible-content">
+										<h1><a target="_blank" href="http://pro.dowith.fr">Pro.dowith.fr</a></h1>
+										<img src="images/real/pro.png" alt="Pro.dowith.fr" />
+										<p>#HTML5 #CSS3 #Javascript #JQuery #Ajax</p>
+									</div>
+									<div class="hide-content">
+										<h1><a target="_blank" href="http://pro.dowith.fr">Pro.dowith.fr</a></h1>
+
+										<p>Site vitrine réalisé durant mon stage en alternance chez <a href="http://www.dowith.fr">Dowith</a><br />Hormis les sliders, tout a été réalisé par moi même (boutons, etc ...)<br /><br /><a href="http://pro.dowith.fr">Accéder au site.</a></p>
+
+									</div>
 								</td>
 
 								<td id="info">
-									<h1><a target="_blank" href="http://www.dck-info.fr">Dck-info.fr</a></h1>
-									<img src="images/real/info.png" alt="dck-info.fr" />
+									<div class="visible-content">
+										<h1><a target="_blank" href="http://www.dck-info.fr">Dck-info.fr</a></h1>
+										<img src="images/real/info.png" alt="dck-info.fr" />
+										<p>#HTML5 #CSS3 #Javascript #JQuery #Ajax #PHP #POO #MySQL</p>
+									</div>
+									<div class="hide-content">
+										<h1><a target="_blank" href="http://www.dck-info.fr">Dck-info.fr</a></h1>
+
+										<p>Site personnel que j'utilise comme blog mais également comme moyen d'exercer mes connaissances.<br />Le CSS est basé sur celui du Framework Twitter Bootsrap.<br /><br /><a href="http://www.dck-info.fr">Accéder au site.</a></p>
+
+									</div>
 								</td>
 								<td id="do"><h1><a target="_blank" href="http://www.dowith.fr">Dowith.fr</a></h1></td>
 								<td id="rep"><h1><a target="_blank" href="http://www.dck-repair.fr">Dck-repair.fr</a></h1></td>
@@ -171,14 +202,26 @@
 							</tr>
 						</table>
 					</div>
-					<div id="right-arrow"><img src="images/right-arrow.png" alt="Left" /></div>
+					<div id="right-arrow">
+						<img src="images/right-arrow.png" alt="Left" />
+					</div>
 				</div>
-				<div class="border-bottom"><img src="images/style/sep.png" /></div>
+				<div class="border-bottom">
+					<img src="images/style/sep.png" />
+				</div>
 			</div>
 		</div>
 		<div id="contents4" class="container">
 			<div class="weft" id="exp">
+				<div class="border-top">
+					<img src="images/style/sep.png" />
+				</div>
+				<div id="experience" class="information">
 
+				</div>
+				<div class="border-bottom">
+					<img src="images/style/sep.png" />
+				</div>
 			</div>
 		</div>
 

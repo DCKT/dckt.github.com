@@ -39,6 +39,16 @@ section table#table-test div.hover {
   -o-border-radius: 3px;
   border-radius: 3px;
 }
+section #contents2 #comp #left-content {
+  margin-top: 100px;
+}
+section #contents2 #comp #left-content div.test {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: #242424;
+}
 section #contents3 div.popup {
   height: 100%;
   width: 100%;
@@ -216,7 +226,7 @@ section #contents1 #presentation h1 {
 section #contents1 #presentation p {
   padding: 15px;
   padding-left: 40px;
-  font-family: "Fontin";
+  font-family: "Fontin", Arial, Serif;
   line-height: 21px;
   width: 85%;
 }
@@ -394,9 +404,21 @@ section #contents3 #real #realisations #hide-tab table tr td {
   background-color: rgba(0, 0, 0, 0.1);
   cursor: pointer;
   text-align: center;
+  -webkit-transition: all 0.4s ease-in-out all;
+  -moz-transition: all 0.4s ease-in-out all;
+  -o-transition: all 0.4s ease-in-out all;
+  transition: all 0.4s ease-in-out all;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 section #contents3 #real #realisations #hide-tab table tr td h1 {
-  margin-top: -130px;
+  margin-top: -110px;
 }
 section #contents3 #real #realisations #hide-tab table tr td h1 a {
   text-decoration: none;
@@ -406,18 +428,41 @@ section #contents3 #real #realisations #hide-tab table tr td img {
   width: 95%;
   z-index: 10;
 }
+section #contents3 #real #realisations #hide-tab table tr td p {
+  position: absolute;
+  width: 200px;
+  margin-left: 20px;
+  font-family: "Fontin", Arial;
+}
 section #contents3 #real #realisations #hide-tab table tr td:hover {
-  -webkit-transition: all 0.2s all;
-  -moz-transition: all 0.2s all;
-  -o-transition: all 0.2s all;
-  transition: all 0.2s all;
-  transition: all 0.2s;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
+  -webkit-transition: all 1.2s all;
+  -moz-transition: all 1.2s all;
+  -o-transition: all 1.2s all;
+  transition: all 1.2s all;
+  transition: all 1.2s;
+  -webkit-transition: all 1.2s;
+  -moz-transition: all 1.2s;
   -webkit-box-shadow: 1px 1px 32px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 1px 1px 32px rgba(0, 0, 0, 0.4);
   -o-box-shadow: 1px 1px 32px rgba(0, 0, 0, 0.4);
   box-shadow: 1px 1px 32px rgba(0, 0, 0, 0.4);
+}
+section #contents3 #real #realisations #hide-tab table tr td div.hide-content {
+  margin-top: 130px;
+  display: none;
+  height: 100%;
+  width: 100%;
+  -webkit-transform: rotate3d(0, 1, 0, 180deg);
+  -moz-transform: rotate3d(0, 1, 0, 180deg);
+  -o-transform: rotate3d(0, 1, 0, 180deg);
+  -ms-transform: rotate3d(0, 1, 0, 180deg);
+  transform: rotate3d(0, 1, 0, 180deg);
+}
+section #contents3 #real #realisations #hide-tab table tr td div.hide-content p {
+  position: absolute;
+  width: 220px;
+  margin-left: 10px;
+  font-family: "Fontin", Arial;
 }
 section #contents3 #real #realisations #left-arrow {
   margin-left: -55px;
@@ -439,4 +484,7 @@ section #contents3 #real #realisations #left-arrow img,
 section #contents3 #real #realisations #right-arrow img {
   width: 60px;
   height: 60px;
+}
+section #contents4 #exp #experience {
+  border: 1px solid black;
 }
