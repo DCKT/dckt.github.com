@@ -1,112 +1,72 @@
-section div.weft .border-top {
-  min-width: 1024px;
-  width: 80%;
-  margin-top: 34%;
-  position: absolute;
+section div.container {
+  width: 100%;
+  height: 100%;
 }
-section div.weft .border-top img {
-  display: block;
+section div.weft {
+  width: 80%;
+  min-width: 900px;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+section div.weft .border-top {
+  min-width: 700px;
+  background-image: url('../images/style/sep.png');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 section div.weft .border-bottom {
-  width: 80%;
-  min-width: 1024px;
-  margin-top: 88%;
-  position: absolute;
-}
-section div.weft .border-bottom img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  min-width: 700px;
+  background-image: url('../images/style/sep.png');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 section div.weft div.information {
-  padding-top: 50px;
-  position: absolute;
-  margin-top: 32%;
-  width: 1024px;
-  height: auto;
-  min-height: 300px;
+  padding-top: 27%;
 }
-section table#table-test div.hover {
-  background-color: blue;
-  height: 305px;
-  width: 240px;
-  position: absolute;
-  margin-left: -260px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -o-border-radius: 3px;
-  border-radius: 3px;
-}
-section #contents2 #comp #left-content {
-  margin-top: 100px;
-}
-section #contents2 #comp #left-content div.test {
-  width: 150px;
-  height: 150px;
-  border: 1px solid black;
-  cursor: pointer;
-  background-color: #242424;
-}
-section #contents3 div.popup {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-section #contents3 div.popup #hide-bg {
-  position: fixed;
-  top: 1px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(24, 24, 24, 0.6);
-  background-repeat: repeat-y;
-  min-height: 800px;
-  z-index: 100000000;
-}
-section #contents3 div.popup #window {
-  margin-left: auto;
-  margin-right: auto;
-  border: 3px solid rgba(255, 255, 255, 0.6);
-  -webkit-box-shadow: 0px 0px 12px #000000;
-  -moz-box-shadow: 0px 0px 12px #000000;
-  -o-box-shadow: 0px 0px 12px #000000;
-  box-shadow: 0px 0px 12px #000000;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -o-border-radius: 3px;
-  border-radius: 3px;
-  width: 80%;
-  height: 400px;
-  z-index: 1111100000;
-  position: relative;
-  margin-top: 50px;
-}
-section #contents3 div.popup #window img {
-  width: 100%;
-  height: 100%;
-}
-section #contents3 div.popup #window span#exit {
-  cursor: pointer;
-  position: absolute;
-  left: 100%;
-  top: -25px;
-  font-size: 20px;
-  font-family: "Arial";
-  color: white;
-  background-color: #333;
-  -webkit-border-radius: 40px;
-  -moz-border-radius: 40px;
-  -o-border-radius: 40px;
-  border-radius: 40px;
+section div.weft span.border-time {
   display: block;
-  width: 30px;
-  height: 25px;
-  text-align: center;
-  padding-top: 3px;
+  margin-top: 80px;
+  min-width: 900px;
+  border-bottom: 10px solid rgba(48, 48, 48, 0.9);
+}
+section div.weft div.round {
+  width: 140px;
+  height: 140px;
+  background-color: blue;
+  -webkit-border-radius: 120px;
+  -moz-border-radius: 120px;
+  -o-border-radius: 120px;
+  border-radius: 120px;
+}
+section div.weft div.round img {
+  margin-left: 35px;
+  margin-top: 35px;
+}
+section div.weft div.window {
+  width: 140px;
+  height: 100px;
+  background-color: white;
+  border: solid 1px rgba(48, 48, 48, 0.4);
+  padding: 8px;
+  margin-top: 10px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  float: left;
+  margin-right: 4px;
+}
+section div.weft div.window:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-color: transparent transparent #484848;
+  border-style: solid;
+  border-width: 0px 10px 10px 10px;
+  position: absolute;
+  margin-top: -18px;
+  margin-left: -10px;
 }
 @font-face {
   font-family: "GearedSlab-Light";
@@ -208,29 +168,18 @@ section {
   width: 100%;
   height: 100%;
 }
-section .container {
-  width: 100%;
-  height: 100%;
-}
-section .weft {
-  width: 80%;
-  min-width: 900px;
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-section #contents1 #presentation h1 {
+section #contents1 #accueil h1 {
   margin: 0;
   padding: 0;
 }
-section #contents1 #presentation p {
+section #contents1 #accueil p {
   padding: 15px;
   padding-left: 40px;
   font-family: "Fontin", Arial, Serif;
   line-height: 21px;
   width: 85%;
 }
-section #contents1 #presentation p img {
+section #contents1 #accueil p img {
   float: left;
   width: 170px;
   height: 170px;
@@ -246,245 +195,50 @@ section #contents1 #presentation p img {
   -o-box-shadow: 1px 1px 12px #242424;
   box-shadow: 1px 1px 12px #242424;
 }
-section #contents2 #skill {
-  padding-top: 50px;
-  position: absolute;
-  margin-top: 22%;
-  width: 1024px;
-  height: auto;
-  min-height: 300px;
-}
-section #contents2 #skill .info {
-  position: absolute;
-  width: 300px;
-  height: 190px;
-  background-color: white;
-  border: 3px solid #484848;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -o-border-radius: 2px;
-  border-radius: 2px;
-  margin-top: -80px;
-  margin-left: 370px;
-  z-index: 100;
-}
-section #contents2 #skill .info h1 {
-  text-shadow: 1px -1px 2px #000000;
-}
-section #contents2 #skill .info p {
-  margin-top: 15px;
-  margin-left: 10px;
-  margin-right: 5px;
-  font-size: 16px;
-  font-family: "GearedSlab-Light";
-  padding-bottom: 10px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-}
-section #contents2 #skill .info p img {
-  width: 60px;
-  height: 63px;
-  float: left;
-  clear: left;
-  padding-right: 9px;
-}
-section #contents2 #skill .info blockquote {
-  margin-left: 15px;
-  font-size: 18px;
-  width: 90%;
-  font-family: "GearedSlab-Light";
-}
-section #contents2 #skill h1 {
-  position: absolute;
-  margin-top: -30px;
-}
-section #contents2 #skill small {
-  position: absolute;
-  margin-top: -15px;
-  margin-left: 230px;
-  font-size: 14px;
-}
-section #contents2 #skill table {
-  margin-top: 70px;
-}
-section #contents2 #skill table#left_table {
-  float: left;
-  margin-left: 7%;
-  border-collapse: collapse;
-  margin-right: 50px;
-}
-section #contents2 #skill table#left_table tr {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  height: 50px;
-}
-section #contents2 #skill table#left_table tr:hover {
-  background-color: rgba(0, 0, 0, 0.2);
-}
-section #contents2 #skill table#left_table tr th {
-  padding-right: 80px;
-}
-section #contents2 #skill table#right_table {
-  margin-left: 10px;
-  border-collapse: collapse;
-}
-section #contents2 #skill table#right_table tr {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  height: 50px;
-}
-section #contents2 #skill table#right_table tr:hover {
-  background-color: rgba(0, 0, 0, 0.2);
-}
-section #contents2 #skill table#right_table tr th {
-  padding-right: 100px;
-}
-section #contents2 #skill .progress {
+section #contents2 #comp div.skill {
   width: 200px;
-  height: 24px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -o-border-radius: 3px;
-  border-radius: 3px;
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  -o-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  background-color: rgba(255, 255, 255, 0.6);
+  height: 200px;
+  -webkit-border-radius: 120px;
+  -moz-border-radius: 120px;
+  -o-border-radius: 120px;
+  border-radius: 120px;
+  border: 1px dotted black;
 }
-section #contents2 #skill .progress .percent {
-  height: 23px;
-  padding-top: 1px;
-  -webkit-border-radius: 3px 0px 0px 3px;
-  -moz-border-radius: 3px 0px 0px 3px;
-  -o-border-radius: 3px 0px 0px 3px;
-  border-radius: 3px 0px 0px 3px;
-  background-color: rgba(20, 20, 20, 0.6);
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  -o-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+section #contents2 #comp canvas {
+  margin-left: 100px;
 }
-section #contents3 #real #realisations {
-  padding-top: 85px;
-  position: absolute;
-  margin-top: 22%;
-  width: 1024px;
-  height: auto;
-  min-height: 430px;
+section #contents3 #real div.wall-left {
+  width: 50%;
+  margin-right: 20px;
 }
-section #contents3 #real #realisations #hide-tab {
-  width: 1004px;
-  height: 400px;
-  overflow: hidden;
-  position: absolute;
-  top: 17%;
-  left: 5px;
+section #contents3 #real div.wall-left table {
+  border-collapse: collapse;
 }
-section #contents3 #real #realisations #hide-tab table {
-  position: absolute;
-  width: 1350px;
-  border-spacing: 20px;
-  position: absolute;
-  left: 0px;
-}
-section #contents3 #real #realisations #hide-tab table tr {
-  margin-top: -15px;
-}
-section #contents3 #real #realisations #hide-tab table tr td {
-  width: 250px;
-  height: 300px;
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  margin: 10px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -o-border-radius: 3px;
-  border-radius: 3px;
-  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
-  -o-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
-  background-color: rgba(0, 0, 0, 0.1);
-  cursor: pointer;
+section #contents3 #real div.wall-left table tr td {
+  width: 150px;
+  height: 150px;
   text-align: center;
-  -webkit-transition: all 0.4s ease-in-out all;
-  -moz-transition: all 0.4s ease-in-out all;
-  -o-transition: all 0.4s ease-in-out all;
-  transition: all 0.4s ease-in-out all;
-  transition: all 0.4s ease-in-out;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  -o-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  transform-style: preserve-3d;
+  cursor: pointer;
 }
-section #contents3 #real #realisations #hide-tab table tr td h1 {
-  margin-top: -110px;
-}
-section #contents3 #real #realisations #hide-tab table tr td h1 a {
-  text-decoration: none;
-  color: #242424;
-}
-section #contents3 #real #realisations #hide-tab table tr td img {
-  width: 95%;
-  z-index: 10;
-}
-section #contents3 #real #realisations #hide-tab table tr td p {
-  position: absolute;
-  width: 200px;
-  margin-left: 20px;
-  font-family: "Fontin", Arial;
-}
-section #contents3 #real #realisations #hide-tab table tr td:hover {
-  -webkit-transition: all 1.2s all;
-  -moz-transition: all 1.2s all;
-  -o-transition: all 1.2s all;
-  transition: all 1.2s all;
-  transition: all 1.2s;
-  -webkit-transition: all 1.2s;
-  -moz-transition: all 1.2s;
-  -webkit-box-shadow: 1px 1px 32px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 1px 1px 32px rgba(0, 0, 0, 0.4);
-  -o-box-shadow: 1px 1px 32px rgba(0, 0, 0, 0.4);
-  box-shadow: 1px 1px 32px rgba(0, 0, 0, 0.4);
-}
-section #contents3 #real #realisations #hide-tab table tr td div.hide-content {
-  margin-top: 130px;
-  display: none;
-  height: 100%;
+section #contents3 #real div.wall-left table tr td img {
   width: 100%;
-  -webkit-transform: rotate3d(0, 1, 0, 180deg);
-  -moz-transform: rotate3d(0, 1, 0, 180deg);
-  -o-transform: rotate3d(0, 1, 0, 180deg);
-  -ms-transform: rotate3d(0, 1, 0, 180deg);
-  transform: rotate3d(0, 1, 0, 180deg);
+  height: 100%;
 }
-section #contents3 #real #realisations #hide-tab table tr td div.hide-content p {
+section #contents3 #real div.wall-left table tr td small {
   position: absolute;
-  width: 220px;
-  margin-left: 10px;
-  font-family: "Fontin", Arial;
+  font-family: "Fontin";
+  font-size: 14px;
+  margin-top: -20px;
 }
-section #contents3 #real #realisations #left-arrow {
-  margin-left: -55px;
-  margin-top: 140px;
-  width: 60px;
-  height: 40px;
-  cursor: pointer;
-  position: absolute;
+section #contents3 #real div.wall-left table tr td:hover {
+  background-color: rgba(0, 0, 0, 0);
 }
-section #contents3 #real #realisations #right-arrow {
-  margin-left: 1010px;
-  margin-top: 140px;
-  width: 60px;
-  height: 40px;
-  cursor: pointer;
-  position: absolute;
-}
-section #contents3 #real #realisations #left-arrow img,
-section #contents3 #real #realisations #right-arrow img {
-  width: 60px;
-  height: 60px;
-}
-section #contents4 #exp #experience {
-  border: 1px solid black;
+section #contents3 #real div.wall-right {
+  text-align: center;
+  border: 1px solid rgba(48, 48, 48, 0.4);
+  width: 46%;
+  min-height: 400px;
+  margin-top: -310px;
+  margin-left: 480px;
+  margin-bottom: 50px;
 }
