@@ -1,6 +1,6 @@
 @import "less/function.less";
 @import "less/lib.less";
-
+@import "css/social_icone.less";
 @font-face{
 	font-family: "GearedSlab-Light";
 	src:url('../font/GearedSlab-Light.ttf');
@@ -144,15 +144,13 @@ section {
 		#real {
 			div.wall-left{
 				width:50%;
-				
-				margin-right:20px;
-				
+				margin-left: 5%;
 				table {
 					border-collapse: collapse;
 					tr {
 						td {
-							width:150px;
-							height:150px;
+							width:135px;
+							height:135px;
 							// background-color: rgba(24,24,24,0.3);
 							text-align: center;
 							cursor: pointer;
@@ -170,10 +168,31 @@ section {
 				text-align: center;
 				border:1px solid rgba(48,48,48,0.4);
 				width:46%;
-				min-height: 400px;
-				margin-top: -310px;
-				margin-left: 480px;
+				min-height: 270px;
+				margin-top: -280px;
+				margin-left: 540px;
 				margin-bottom: 50px;
+			}
+		}
+	}
+
+	#contents5 {
+		#follow {
+			ul {
+				position: relative;
+				@media screen and (max-width:1300px) {
+					left:27%;
+				}
+				left:35%;
+				li {
+					display: inline-block;
+					&:first-child { float:left;margin-right: 3px;}
+					&#git {
+						display: block;
+						float: left;
+						margin-right: 3px;
+					}
+				}
 			}
 		}
 	}
