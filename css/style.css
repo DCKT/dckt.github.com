@@ -678,7 +678,6 @@ section #contents1 #accueil p img {
   box-shadow: 1px 1px 12px #242424;
 }
 section #contents2 #comp .legend {
-  float: left;
   width: 250px;
   margin-top: 140px;
 }
@@ -686,7 +685,6 @@ section #contents2 #comp .get {
   display: none;
 }
 section #contents2 #comp .skills {
-  float: left;
   clear: both;
   width: 100%;
 }
@@ -730,9 +728,10 @@ section #contents2 #comp .skills li.obj {
   background-color: #c5c0d6;
 }
 section #contents2 #comp #diagram {
-  float: left;
-  width: 600px;
-  height: 600px;
+  width: 300px;
+  height: 550px;
+  margin-top: -190px;
+  margin-left: 350px;
 }
 section #contents3 #real div.wall-left {
   width: 50%;
