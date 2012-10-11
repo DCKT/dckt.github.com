@@ -681,6 +681,12 @@ section #contents2 #comp .legend {
   width: 250px;
   margin-top: 140px;
 }
+@media screen and (max-width: 1300px) {
+  section #contents2 #comp .legend {
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+}
 section #contents2 #comp .get {
   display: none;
 }
@@ -732,6 +738,13 @@ section #contents2 #comp #diagram {
   height: 550px;
   margin-top: -190px;
   margin-left: 350px;
+}
+@media screen and (max-width: 1300px) {
+  section #contents2 #comp #diagram {
+    margin-top: -160px;
+    height: 450px;
+    margin-left: 510px;
+  }
 }
 section #contents3 #real div.wall-left {
   width: 50%;
