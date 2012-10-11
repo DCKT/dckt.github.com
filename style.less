@@ -128,15 +128,66 @@ section {
 
 	#contents2 {
 		#comp {
+			.legend {
+				float:left;
+				width:250px;
+				margin-top:140px;
+				}
 
-			div.skill {
-				width:200px;
-				height:200px;
-				.border-radius(120px);
-				border:1px dotted black;
+			.get {
+			    display:none;
 			}
+			.skills {
+				float:left;
+				clear:both;
+				width:100%;
 
-			canvas { margin-left: 100px;}
+				ul, li {
+					display:block;
+					list-style:none;
+					margin:0;
+					padding:0;
+				}
+
+				li {
+					float:right;
+					clear:both;
+					padding:0 15px;
+					height:35px;
+					line-height:35px;
+					color:#fff;
+					margin-bottom:1px;
+					font-size:18px;
+
+					&.jq {
+						background:#97BE0D;
+					}
+					&.css {
+						background:#D84F5F;
+					}
+					&.html {
+						background:#ff8400;
+					}
+					&.php {
+						background:#9100ff;
+					}
+					&.sql {
+						background:#EDEBEE;
+						color:#242424;
+					}
+					&.sf {
+						background-color: #484848;
+					}
+					&.obj {
+						background-color: #c5c0d6;
+					}
+				}
+			}
+			#diagram {
+			    float:left;
+			    width:600px;
+			    height:600px;
+			}
 		}
 	}
 
@@ -179,11 +230,10 @@ section {
 	#contents5 {
 		#follow {
 			ul {
-				position: relative;
 				@media screen and (max-width:1300px) {
-					left:27%;
+					margin-left:27%;
 				}
-				left:35%;
+				margin-left:35%;
 				li {
 					display: inline-block;
 					&:first-child { float:left;margin-right: 3px;}
