@@ -3,6 +3,22 @@ $(document).ready(function() {
 	mov = 500;
 	essai =false;
 
+
+
+	$("div.wall-left table tr td").click(function(e){
+		e.preventDefault();
+		var element = $(this);
+		var title = element.data('title');
+		var link = element.data('link');
+		var description = element.data('description');
+		var tag = element.data('tag');
+
+		$("div.wall-right h3").text(title);
+		$("div.wall-right a").text(link).attr('href',link);
+		$("div.wall-right p").text(description);
+		$("div.wall-right small").text(tag);
+	});
+
 	$("table#table-test tr td").mouseenter(function(){
 		element = $(this);
 		$("table#table-test tr td").css({

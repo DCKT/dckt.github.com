@@ -766,6 +766,10 @@ section #contents3 #real div.wall-right {
   min-height: 270px;
   margin-top: -280px;
   margin-left: 540px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
   margin-bottom: 50px;
 }
 section #contents5 #follow ul {
@@ -787,4 +791,31 @@ section #contents5 #follow ul li#git {
   display: block;
   float: left;
   margin-right: 3px;
+}
+section #contents6 #cont form label {
+  float: left;
+  width: 120px;
+}
+section #contents6 #cont form input[type="text"],
+section #contents6 #cont form input[type="mail"] {
+  width: 230px;
+  height: 30px;
+  margin-bottom: 5px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  font-family: "Calibri";
+  font-size: 15px;
+  border: 1px solid rgba(48, 48, 48, 0.7);
+}
+section #contents6 #cont form textarea {
+  width: 370px;
+  height: 200px;
+  resize: none;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid rgba(48, 48, 48, 0.7);
 }

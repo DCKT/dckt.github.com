@@ -37,8 +37,8 @@
 					<h1>Bienvenue sur mon Portfolio !</h1>
 					<p>
 						<img src="images/moi.png" alt="Moi" />
-						Je m'appelle Deconinck Thomas, 19 ans, étudiant en 2<sup>ème</sup> année à SUPINFO Lille. <br />Je suis passionné par l'informatique depuis mon plus bas âge, j'ai donc mis la priorité la dessus et j'ai obtenu les bases (hardware et software) au Collège Technique St Joseph en faisant un BAC <em>technicien informaticien</em> mais c'est pendant ces études que j'ai découvert par moi-même la programmation et les technologies du web.
-						<br /><br />
+						Je m'appelle Deconinck Thomas, 20 ans, étudiant en 2<sup>ème</sup> année à SUPINFO Lille. <br />Je suis passionné par l'informatique depuis mon plus bas âge, j'ai donc mis la priorité la dessus et j'ai obtenu les bases (hardware et software) au Collège Technique St Joseph en faisant un BAC <em>technicien informaticien</em> mais c'est pendant ces études que j'ai découvert par moi-même la programmation et les technologies du web.
+						<br />
 						Vous pourrez trouver à travers ce portfolio mes diverses compétences, réalisations, mais également mes expériences. N'hésitez pas à me suivre sur les réseaux sociaux !
 					</p>
 				</div>
@@ -116,26 +116,39 @@
 					<div class="wall-left">
 						<table>
 							<tr>
-								<td>
-									<img src="#" />
-									<small>Dowith</small</td>
-								<td>
-									<img src="#" />
-									<small>Pro dowith</small
+								<td 
+									data-link="http://www.dowith.fr"data-description="Site réalisé avec l'aide d'un développeur Symfony confirmé"
+									data-title="Dowith"
+									data-tag="HTML5 / CSS3 / JQuery / PHP5 / Symfony 1.4 / Photoshop"
+									>
+									
+									<img src="images/real/dowith.jpg"
+									alt="Dowith" />
+									<small style="color:white">Dowith</small>
+								</td>
+								<td
+									data-title="Dowith Pro"
+									data-link="http://pro.dowith.fr"
+									data-description="Site vitrine réalisé pour la partie professionnelle de Dowith"
+									data-tag="HTML5 / CSS3 / JQuery / Ajax / PHP5 / Photoshop">
+									<img src="images/real/dopro.png" 
+									
+									/>
+									<small style="color:white">Pro Dowith</small>
 								</td>
 								<td>
 									<img src="#" />
-									<small>Blog wordpress</small
-									</td>
+									<small>Blog wordpress</small>
+								</td>
 							</tr>
 							<tr>
 								<td>
 									<img src="#" />
-									<small>Blog Symfony</small
+									<small>Blog Symfony</small>
 								</td>
 								<td>
 									<img src="#" />
-									<small>Diagnostic(en cours)</small
+									<small>Diagnostic(en cours)</small>
 								</td>
 								<td>
 									<img src="#" />
@@ -149,9 +162,9 @@
 						<a href="#">Lien vers le site</a>
 						<p> Bref description </p>
 
-						<ul>
-							<li>Compétences associés</li>
-						</ul>
+						<small>
+							Compétences associés
+						</small>
 					</div>
 				</div>
 				<div class="border-bottom">&nbsp;</div>
@@ -221,9 +234,13 @@
 					<h1>Contact</h1>
 					<form action="mail.php" method="post" name="contact">
 						<label for="nom">Nom :</label>
-						<input type="text" placeHolder="Insérez votre nom ou prénom" id="nom" name="nom"required /><br />
+						<input type="text" placeHolder="Nom - prénom" id="nom" name="nom"required /><br />
+						<label for="mail">Email :</label>
+						<input type="mail" placeHolder="Adresse mail" /><br />
 						<label for="message">Votre message :</label>
-						<br /><textarea id="message" name="message"></textarea>
+						<textarea placeHolder="Votre message" id="message" name="message"></textarea>
+						<br />
+						<input type="submit" value="Envoyer !" />
 					</form>
 				</div>
 				<div class="border-bottom">&nbsp;</div>
