@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<title>Deconinck Thomas - Développeur web et mobile</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="Portfolio d'un étudiant à SUPINFO passionnée par le développement web et mobile.">
+		<meta name="description" content="Retrouvez mes diverseses compétences, ainsi que les divers outils que j'utilise.">
 		<meta name="author" content="Deconinck Thomas">
 
 		<link href="css/main.css" rel="stylesheet" />
@@ -23,21 +23,40 @@
 	<div class="container-fluid">
 		<div class="row-fluid">
 			<?php require_once('include/nav.php'); ?>
-			<div class="span8 offset3 home">
+			
+			<div class="span8 offset3">
 				<div class="row">
-					<div class="offset1 presentation">
-						<img src ="img/presentation/imac.png" />
-						<img src ="img/presentation/ipad.png" />
-						<img src ="img/presentation/iphone.png" />
-					</div>
+					<h2>Langages :</h2>
+					<ul>
+						<li>HTML5</li>
+						<li>CSS3</li>
+						<li>LESS</li>
+						<li>Javascript</li>
+						<li>JQuery / CoffeeScript (bases)</li>
+						<li>PHP5</li>
+						<li>SQL</li>
+						<li>Symfony 2</li>
+						<li>Objective-C</li>
+					</ul>
 				</div>
-				
-				<p class="full-screen">
-					<img src="img/presentation/dck.png" class="img-polaroid" alt="Deconinck Thomas" />
-					Etudiant en 2<sup>ème</sup> année à SUPINFO Lille. <br />Je suis passionné par l'informatique depuis mon plus bas âge, j'ai donc mis la priorité la dessus et j'ai obtenu les bases (hardware et software) au Collège Technique St Joseph en faisant un BAC <em>technicien informaticien</em> mais c'est pendant ces études que j'ai découvert par moi-même la programmation et les technologies du web.
-					<br /><br />
-					Vous pourrez trouver à travers ce portfolio mes diverses compétences, réalisations, mais également mes expériences. N'hésitez pas à me suivre sur les réseaux sociaux !
-				</p>
+				<div class="row">
+					<h2>Outils :</h2>
+					<ul>
+						<li>GIT</li>
+						<li>Photoshop</li>
+						<li>XCode</li>
+						<li>Sublime Text 2</li>
+					</ul>
+				</div>
+				<div class="row">
+					<h2>Environnements :</h2>
+					<ul>
+						<li>Mac OS X (Lion, Mountain Lion)</li>
+						<li>Windows XP / 7</li>
+						<li>Windows Server 2003 / 2008</li>
+						<li>Ubuntu / Mandriva / Suse / Archlinux</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
