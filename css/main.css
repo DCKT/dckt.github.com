@@ -5401,6 +5401,9 @@ nav.menu {
   -moz-box-shadow: 0px 1px 1px #242424;
   box-shadow: 0px 1px 1px #242424;
 }
+nav.menu div.center {
+  text-align: center;
+}
 nav.menu ul {
   margin-top: 30px;
 }
@@ -5435,6 +5438,7 @@ div.home h1 {
   text-align: center;
 }
 div.home div.presentation {
+  text-align: center;
   margin-bottom: 25px;
 }
 div.home div.presentation img {

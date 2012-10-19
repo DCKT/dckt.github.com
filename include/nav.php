@@ -1,5 +1,5 @@
 <nav class="span3 menu hidden-phone">
-	<div class="row offset1">
+	<div class="row center">
 		<img src ="http://www.placehold.it/240x200" />
 	</div>
 	<div class="row">
@@ -21,7 +21,7 @@
 			</a>
 		</ul>
 	</div>
-	<div class="row">
+	<div class="row center">
 		<ul class="social">
 			<li>
 				<img src ="http://www.placehold.it/50x50" />
