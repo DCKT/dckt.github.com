@@ -26,30 +26,38 @@
 			
 			<div class="span8 offset3">
 				<div class="row">
-					<h2>Langages :</h2>
-					<ul>
-						<li>HTML5</li>
-						<li>CSS3</li>
-						<li>LESS</li>
-						<li>Javascript</li>
-						<li>JQuery / CoffeeScript (bases)</li>
-						<li>PHP5</li>
-						<li>SQL</li>
-						<li>Symfony 2</li>
-						<li>Objective-C</li>
+					<div class="page-header">
+						<h2>Langages :</h2>
+					</div>
+					<ul class="thumbnails">
+						<li>
+							<img src="img/logo/htmlcss.png" alt="HTML5 CSS3" />
+						</li>
+						<li><img src="img/logo/less.png" alt="LESS" /></li>
+						<li><img src="img/logo/js.jpeg" alt="Javascript" /></li>
+						<li><img src="img/logo/jquery.png" alt="jQuery" /></li>
+						<li><img src="img/logo/coffee.png" alt="CoffeeScript" /></li>
+						<li><img src="img/logo/php.png" alt="PHP5" /></li>
+						<li><img src="img/logo/mysql.png" alt="MySQL" /></li>
+						<li><img src="img/logo/sf.png" alt="Symfony 2" /></li>
+						<li><img src="img/logo/objective-c.jpeg" /></li>
 					</ul>
 				</div>
 				<div class="row">
-					<h2>Outils :</h2>
-					<ul>
-						<li>GIT</li>
-						<li>Photoshop</li>
-						<li>XCode</li>
-						<li>Sublime Text 2</li>
+					<div class="page-header">
+						<h2>Outils :</h2>
+					</div>
+					<ul class="thumbnails">
+						<li><img src="img/logo/git.png" alt="GIT" /></li>
+						<li><img src="img/logo/photshop.png" alt="photoshop" /></li>
+						<li><img src="img/logo/xcode.png" alt="XCode" /></li>
+						<li><img src="img/logo/sublim.png" alt="Sublime Text 2" /></li>
 					</ul>
 				</div>
 				<div class="row">
-					<h2>Environnements :</h2>
+					<div class="page-header">
+						<h2>Environnements :</h2>
+					</div>
 					<ul>
 						<li>Mac OS X (Lion, Mountain Lion)</li>
 						<li>Windows XP / 7</li>
