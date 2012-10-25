@@ -43,33 +43,36 @@ nav {
 		}
 		ul {
 			margin-top: 30px;
-			a {
-				text-decoration: none;
-				border-bottom: 1px dotted rgba(255,255,255,0.4);
-				display: block;
-				// margin-bottom: 10px;
-				padding-right: 20px;
 
-				&:last-child {
-					border-bottom: none;
-				}
-				&:hover {
+			&.navigation {
+
+				a {
 					text-decoration: none;
-					background-color: rgba(255,255,255,0.1);
-					text-shadow:0px 0px 12px black;
-				}
-				li {
-					color:white;
-					line-height: 44px;
-					text-align: right;
+					border-bottom: 1px dotted rgba(255,255,255,0.4);
+					display: block;
+					// margin-bottom: 10px;
+					padding-right: 20px;
+
+					&:last-child {
+						border-bottom: none;
+					}
+					&:hover {
+						text-decoration: none;
+						background-color: rgba(255,255,255,0.1);
+						text-shadow:0px 0px 12px black;
+					}
+					li {
+						color:white;
+						line-height: 44px;
+						text-align: right;
+					}
 				}
 			}
-
 			&.social {
 				li {
 					border: none;
 					display: inline-block;
-					margin: 9px;
+					margin: 7px;
 				}
 			}
 		}
@@ -117,6 +120,33 @@ div.home {
 	}
 }
 
+div.comp {
+	ul {
+		text-align: center;
+		li {
+			margin: 10px;
+			border:8px solid white;
+			@shadow: 0px 0px 12px rgba(0,0,0,0.3), inset 0px 0px 12px rgba(48,48,48,0.5);
+			.box-shadow(@shadow);
+			background-color: rgba(250,250,250,0.5);
+			padding: 2px;
+			display: inline-block;
+			&:before {
+				content:"";
+				// position: absolute;
+				margin-top: -30px;
+				display: block;
+				text-align: center;
+				background-image:url('../img/logo/pins.png');
+				background-repeat: no-repeat;
+				background-position: center;
+				width:100%;
+				height:30px;
+				z-index: 1000;
+			}
+		}
+	}
+}
 div.contact {
 	form {
 		legend {

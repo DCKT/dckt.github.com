@@ -5407,21 +5407,21 @@ nav.menu div.center {
 nav.menu ul {
   margin-top: 30px;
 }
-nav.menu ul a {
+nav.menu ul.navigation a {
   text-decoration: none;
   border-bottom: 1px dotted rgba(255, 255, 255, 0.4);
   display: block;
   padding-right: 20px;
 }
-nav.menu ul a:last-child {
+nav.menu ul.navigation a:last-child {
   border-bottom: none;
 }
-nav.menu ul a:hover {
+nav.menu ul.navigation a:hover {
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0.1);
   text-shadow: 0px 0px 12px black;
 }
-nav.menu ul a li {
+nav.menu ul.navigation a li {
   color: white;
   line-height: 44px;
   text-align: right;
@@ -5429,7 +5429,7 @@ nav.menu ul a li {
 nav.menu ul.social li {
   border: none;
   display: inline-block;
-  margin: 9px;
+  margin: 7px;
 }
 div.home {
   padding: 15px;
@@ -5468,6 +5468,31 @@ div.home p.full-screen {
 div.home p.full-screen img {
   width: 170px;
   height: 170px;
+}
+div.comp ul {
+  text-align: center;
+}
+div.comp ul li {
+  margin: 10px;
+  border: 8px solid white;
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3), inset 0px 0px 12px rgba(48, 48, 48, 0.5);
+  -moz-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3), inset 0px 0px 12px rgba(48, 48, 48, 0.5);
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3), inset 0px 0px 12px rgba(48, 48, 48, 0.5);
+  background-color: rgba(250, 250, 250, 0.5);
+  padding: 2px;
+  display: inline-block;
+}
+div.comp ul li:before {
+  content: "";
+  margin-top: -30px;
+  display: block;
+  text-align: center;
+  background-image: url('../img/logo/pins.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 30px;
+  z-index: 1000;
 }
 div.contact form legend {
   font-size: 16px;

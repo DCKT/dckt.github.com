@@ -1,9 +1,9 @@
 <nav class="span3 menu hidden-phone">
 	<div class="row center">
-		<img src ="http://www.placehold.it/240x200" />
+		<img src ="img/logo.png" />
 	</div>
 	<div class="row">
-		<ul>
+		<ul class="navigation">
 			<a href="index.php">
 				<li>Accueil</li>
 			</a>
@@ -24,48 +24,29 @@
 	<div class="row center">
 		<ul class="social">
 			<li>
-				<img src ="http://www.placehold.it/50x50" />
+				<a href="https://twitter.com/DCK__">
+					<img src ="img/social_icone/twitter.png" alt="Twitter" />
+				</a>
 			</li>
 			<li>
-				<img src ="http://www.placehold.it/50x50" />
+				<a href="fr.linkedin.com/in/deconinckthomas">
+					<img src ="img/social_icone/linkedin.png" alt="LinkedIn" />
+				</a>
 			</li>
 			<li>
-				<img src ="http://www.placehold.it/50x50" />
+				<a href="https://github.com/DCKT">
+					<img src ="img/social_icone/github.png" alt="Github" />
+				</a>
 			</li>
 			<li>
-				<img src ="http://www.placehold.it/50x50" />
+				<a href="http://fr.viadeo.com/fr/profile/thomas.deconinck2">
+					<img src ="img/social_icone/viadeo.png" alt="Viadeo" />
+				</a>
 			</li>
 		</ul>
 	</div>
 </nav>
 
-<!-- <nav class="menu-phone visible-phone">
-	<ul>
-		<a href="index.php">
-			<li>Accueil</li>
-		</a>
-		<a href="competences.php">
-			<li>Compétences</li>
-		</a>
-		<a href="realisations.php">
-			<li>Réalisations</li>
-		</a>
-		<a href="experiences.php">
-			<li>Expériences</li>
-		</a>
-		<a href="contact.php">
-			<li>Contact</li>
-		</a>
-	</ul>
-	<ul class="nav nav-pills">
-	  <li class="active">
-	    <a href="#">Home</a>
-	  </li>
-	  <li><a href="#">Compétences</a></li>
-	  <li><a href="#">Réalisations</a></li>
-	  <li><a href="#">...</a></li>
-	</ul>
-</nav>	 -->
 <nav class="menu-phone navbar navbar-fixed-bottom visible-phone">
   <div class="navbar-inner">
     <a class="brand" href="#"></a>
