@@ -52,9 +52,9 @@
     <a class="brand" href="#"></a>
     <ul class="nav">
       <li class="active"><a href="index.php">Home</a></li>
-      <li><a href="#">Compétences</a></li>
-      <li><a href="#">Réalisations</a></li>
-      <li><a href="#">Expériences</a></li>
+      <li><a href="competences.php">Compétences</a></li>
+      <li><a href="realisations.php">Réalisations</a></li>
+      <li><a href="experiences.php">Expériences</a></li>
       <li><a href="contact.php">Contact</a></li>
     </ul>
   </div>
