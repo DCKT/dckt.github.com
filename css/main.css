@@ -5426,6 +5426,11 @@ nav.menu ul.navigation a li {
   line-height: 44px;
   text-align: right;
 }
+nav.menu ul.navigation a.on {
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-shadow: 0px 0px 12px black;
+}
 nav.menu ul.social li {
   border: none;
   display: inline-block;

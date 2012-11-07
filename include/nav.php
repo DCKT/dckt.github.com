@@ -4,19 +4,19 @@
 	</div>
 	<div class="row">
 		<ul class="navigation">
-			<a href="index.php">
+			<a href="index.php" class="<?php if($type == "home") { echo "on"; } ?>">
 				<li>Accueil</li>
 			</a>
-			<a href="competences.php">
+			<a href="competences.php" class="<?php if($type == "comp") { echo "on"; } ?>">
 				<li>Compétences</li>
 			</a>
-			<a href="realisations.php">
+			<a href="realisations.php" class="<?php if($type == "real") { echo "on"; } ?>">
 				<li>Réalisations</li>
 			</a>
-			<a href="experiences.php">
+			<a href="experiences.php" class="<?php if($type == "exp") { echo "on"; } ?>">
 				<li>Expériences</li>
 			</a>
-			<a href="contact.php">
+			<a href="contact.php" class="<?php if($type == "contact") { echo "on"; } ?>">
 				<li>Contact</li>
 			</a>
 		</ul>

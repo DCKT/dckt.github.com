@@ -1,3 +1,4 @@
+<?php $type = "exp"; ?>
 <!DOCTYPE html>
 <html lang="fr">
 	<head>

@@ -1,4 +1,4 @@
-
+<?php $type = "contact"; ?>
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
@@ -57,7 +57,7 @@
 				</form>
 				<ul class="thumbnails">
 					<li>
-						<a href="form/cv.pdf" class="thumbnail">
+						<a href="form/cv.pdf" class="thumbnail" target="_blank">
 							<img src="img/cv-logo.png" alt="CV" style="width:130px;height:130px;" />
 							<strong>Téléchargez mon C.V</strong>
 						</a>
