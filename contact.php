@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
@@ -28,7 +29,7 @@
 					<h1>Contact</h1>
 				</header>
 				
-				<form action="#" method="post" class="form-horizontal span10">
+				<form action="form/mail.php" method="post" class="form-horizontal span10">
 					<legend>
 						Une question, un contrat freelance, un stage à me proposer ?
 					</legend>
@@ -54,6 +55,14 @@
 				      <button type="submit" class="span5 btn btn-danger btn-large">Envoyer !</button>
 				    </div>
 				</form>
+				<ul class="thumbnails">
+					<li>
+						<a href="form/cv.pdf" class="thumbnail">
+							<img src="img/cv-logo.png" alt="CV" style="width:130px;height:130px;" />
+							<strong>Téléchargez mon C.V</strong>
+						</a>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>
