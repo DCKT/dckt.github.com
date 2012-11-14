@@ -2,12 +2,30 @@
 @import "less/responsive-768px-979px.less";
 @import "less/responsive-767px-max.less";
 @import "less/responsive-utilities.less";
+@import "custom-less/home.less";
+@import "custom-less/competences.less";
+@import "custom-less/experiences.less";
+@import "custom-less/realisations.less";
+@import "custom-less/contact.less";
 
 @bg:rgba(250,250,250,0.5);
 
 body {
 	background-image: url('../img/textures/bg.jpeg');
 	overflow-x: hidden;
+
+	#sizeup {
+			background-color: rgba(24,24,24,0.9);
+			width:150px;
+			text-align: center;
+			color:white;
+			position: absolute;
+			line-height: 25px;
+			top:10px;
+			right:100px;
+			font-family: "Helvetica";
+			cursor:move;
+	}
 }
 
 nav {
@@ -86,154 +104,8 @@ nav {
 	}
 }
 
-div.container-fluid {
-	
-}
-div.home {
-	padding: 15px;
 
-	h1 { text-align: center;}
 
-	div.presentation {
-		text-align: center;
-		margin-bottom: 25px;
-		img { 
-			margin: 10px;
-			position: relative;
-			left:140%;
-		}
-	}
-	p {
-		padding-top: 10px;
-		img { 
-			.border-radius(2px);
-			float:left;
-			width:21%; 
-			margin-top:-10px;
-			margin-right: 10px;
-		}
 
-		&.full-screen {
-			padding: 15px;
-			padding-top: 25px;
-			background-color: rgba(250,250,250,0.5);
-			width:100%;
-			min-height:170px;
 
-			img {
-				.square(170px);
-			}
-		}
-	}
-}
 
-div.comp {
-	ul {
-		text-align: center;
-		li {
-			margin: 10px;
-			border:8px solid white;
-			@shadow: 0px 0px 12px rgba(0,0,0,0.3), inset 0px 0px 12px rgba(48,48,48,0.5);
-			.box-shadow(@shadow);
-			background-color: rgba(250,250,250,0.5);
-			padding: 2px;
-			display: inline-block;
-			&:before {
-				content:"";
-				// position: absolute;
-				margin-top: -30px;
-				display: block;
-				text-align: center;
-				background-image:url('../img/logo/pins.png');
-				background-repeat: no-repeat;
-				background-position: center;
-				width:100%;
-				height:30px;
-				z-index: 1000;
-			}
-		}
-	}
-}
-div.realisations {
-	table {
-		background-color: rgba(250,250,250,0.5);
-	}
-}
-
-div.exp {
-	div.exp-list {
-		margin-top: 100%;
-
-		div.timeline {
-			.center-block();
-			@tl:rgba(0,0,0,0.7);
-			width:7px;
-			height: 500px;
-			background-color: @tl;
-		}
-		div.arrow-tl {
-			.center-block();
-			@tl:rgba(0,0,0,0.7);
-			width: 0;
-			height: 0; 
-			border-left: 30px solid transparent;
-			border-right: 30px solid transparent;
-			border-bottom: 30px solid @tl;
-		}
-	}
-
-	div.list-exp-left {
-		margin-top: -500px;
-		height: 300px;
-		opacity: 0;
-		div.exp-box {
-			width:250px;
-			height:120x;
-			background-color: @bg;
-			border:3px solid rgba(0,0,0,0.6);
-			.border-radius(2px);
-			margin-bottom: 30px;
-
-			h2 { 
-				text-align: center;
-				border-bottom: 1px solid rgba(0,0,0,0.7);
-				font-size: 16px; 
-				margin-top: -1px;
-				line-height: 23px;
-			}
-			p {
-				text-align: center;
-			}
-
-			div.time-link {
-				display: block;
-				position: absolute;
-				width:147px;
-				height:1px;
-				border:1px solid rgba(48,48,48,0.3);
-				background-color: rgba(48,48,48,0.3);
-				margin-left: 253px;
-				margin-top: -60px;
-
-				&:after {
-					content:".";
-					display: block;
-					background-color: white;
-					.square(7px);
-					.border-radius(100px);
-					color: transparent;
-					margin-left: 148px;
-					margin-top: -3px;
-				}
-			}
-		}
-	}
-}
-
-div.contact {
-	form {
-		legend {
-			font-size: 16px;
-		}
-	}
-}

@@ -9,10 +9,12 @@
 <script src="js/bootstrap-scrollspy.js"></script>
 <script src="js/bootstrap-tab.js"></script>
 <script src="js/bootstrap-tooltip.js"></script>
-<script src="js/bootstrap-popover.js"></script>
 <script src="js/bootstrap-button.js"></script>
+<script src="js/bootstrap-popover.js"></script>
 <script src="js/bootstrap-collapse.js"></script>
 <script src="js/bootstrap-carousel.js"></script>
 <script src="js/bootstrap-typeahead.js"></script>
 <script src="js/bootstrap-affix.js"></script>
 <script src="js/application.js"></script>
+<script type="text/javascript" src="js/jqueryui.js"></script>
+<script type="text/javascript" src="js/sizeup.js"></script>

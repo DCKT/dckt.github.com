@@ -13,7 +13,7 @@ $(document).ready(function() {
 	$("div.exp div.exp-list").animate({
 		'margin-top': '0px'
 	}, 500);
-	$("div.exp div.list-exp-left").animate({
+	$("div.exp div.list-exp-left, div.list-exp-right").animate({
 		'opacity': '1'
 	}, 2500);
 });
