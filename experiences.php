@@ -25,6 +25,41 @@
 		<div class="row-fluid">
 			<?php require_once('include/nav.php'); ?>
 			
+			<div class="span8 offset3 exp">	
+				<h1>Expériences professionnelles</h1>
+
+				<div class="exp-list">
+					<div class="arrow-tl">&nbsp;</div>
+					<div class="timeline"></div>
+				</div>
+
+				<div class="list-exp-left">
+					<div class="exp-box">
+						<h2>Intégrateur web Symfony 2 Développeur iOS</h2>
+						<p>
+							Refonte du <a href="http://www.dowith.fr">site</a> basé sous Symfony 1.4<br />
+							Début de la migration vers Symfony2.<br />
+							Développement de l'application iOS.
+						</p>
+						<div class="time-link">
+							<p>
+								07/2012 à 11/2012 
+							</p>
+						</div>
+					</div>
+					<div class="exp-box">
+						<h2>Développeur Front-end</h2>
+						<p>
+							Mise en place de la version professionnelle de <a href="http://www.dowith.fr">Dowith</a>
+						</p>
+						<div class="time-link">
+							<p>
+								03/2012 à 07/2012 
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
@@ -33,23 +68,6 @@
 
 
 
-		<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-		<script src="js/jquery.js"></script>
-		<script src="js/custom.js"></script>
-		<script src="js/google-code-prettify/prettify.js"></script>
-		<script src="js/bootstrap-transition.js"></script>
-		<script src="js/bootstrap-alert.js"></script>
-		<script src="js/bootstrap-modal.js"></script>
-		<script src="js/bootstrap-dropdown.js"></script>
-		<script src="js/bootstrap-scrollspy.js"></script>
-		<script src="js/bootstrap-tab.js"></script>
-		<script src="js/bootstrap-tooltip.js"></script>
-		<script src="js/bootstrap-popover.js"></script>
-		<script src="js/bootstrap-button.js"></script>
-		<script src="js/bootstrap-collapse.js"></script>
-		<script src="js/bootstrap-carousel.js"></script>
-		<script src="js/bootstrap-typeahead.js"></script>
-		<script src="js/bootstrap-affix.js"></script>
-		<script src="js/application.js"></script>
+	<?php include('include/jsfile.php') ?>
 	</body>
 </html>

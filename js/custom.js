@@ -9,4 +9,11 @@ $(document).ready(function() {
 	$("div.presentation img:eq(2)").animate({
 		'left':'-3%',
 	},1600);
+
+	$("div.exp div.exp-list").animate({
+		'margin-top': '0px'
+	}, 500);
+	$("div.exp div.list-exp-left").animate({
+		'opacity': '1'
+	}, 2500);
 });
