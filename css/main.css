@@ -5370,6 +5370,10 @@ a.badge:hover {
 div.home {
   padding: 15px;
 }
+div.home div.search-event {
+  width: 400px;
+  margin-left: auto;
+}
 div.home h1 {
   text-align: center;
 }

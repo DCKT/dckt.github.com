@@ -6,7 +6,7 @@ require_once('include/nav.php');
 
 		<div class="span8 offset3 home">
 			<div class="row">
-				<div class="span5 offset7 alert alert-danger" style="text-align:center">
+				<div class="search-event alert alert-danger" style="text-align:center">
 					À la recherche d'un stage en alternance ( mercredi ) ! <a href="#" class="close" data-dismiss="alert">×</a>
 				</div>
 				<div class="offset1 presentation">
