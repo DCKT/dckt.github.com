@@ -9,7 +9,7 @@ require_once('include/nav.php');
 				<div class="search-event alert alert-danger" style="text-align:center">
 					À la recherche d'un stage en alternance ( mercredi ) ! <a href="#" class="close" data-dismiss="alert">×</a>
 				</div>
-				<div class="offset1 presentation">
+				<div class="presentation">
 					<img src ="img/presentation/imac.png" />
 					<img src ="img/presentation/ipad.png" />
 					<img src ="img/presentation/iphone.png" />
