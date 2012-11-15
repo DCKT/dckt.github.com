@@ -54,8 +54,8 @@
       <li class="<?php if($type == "home") { echo "active"; } ?>"><a href="index.php">Home</a></li>
       <li class="<?php if($type == "comp") { echo "active"; } ?>"><a href="competences.php">Compétences</a></li>
       <li class="<?php if($type == "real") { echo "active"; } ?>"><a href="realisations.php">Réalisations</a></li>
-      <li><a href="experiences.php">Expériences</a></li>
-      <li><a href="contact.php">Contact</a></li>
+      <li class="<?php if($type == "exp") { echo "active"; } ?>"><a href="experiences.php">Expériences</a></li>
+      <li class="<?php if($type == "contact") { echo "active"; } ?>"><a href="contact.php">Contact</a></li>
     </ul>
   </div>
 </nav>

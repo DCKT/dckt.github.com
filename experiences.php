@@ -18,6 +18,7 @@ require_once('include/nav.php');
 				<div class="exp-box">
 					<h2>Intégrateur web Symfony 2 <br />Développeur iOS</h2>
 					 <small>Novembre 2012<br />Juillet 2012</small>
+					 <strong>Dowith - Villeneuve D'Ascq</strong>
 					<p>
 						Refonte du <a href="http://www.dowith.fr">site</a> basé sous Symfony 1.4<br />
 						Début de la migration vers Symfony2.<br />
@@ -29,6 +30,7 @@ require_once('include/nav.php');
 				<div class="exp-box">
 					<h2>Développeur Front-end</h2>
 					<small>Juillet 2012<br />Mars 2012 </small>
+					<strong>Dowith - Villeneuve D'Ascq</strong>
 					<p>
 						Mise en place de la version professionnelle de <a href="http://www.dowith.fr">Dowith</a>
 					</p>

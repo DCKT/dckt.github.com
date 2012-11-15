@@ -5510,9 +5510,19 @@ div.exp div.list-exp-left div.exp-box small {
   line-height: 15px;
 }
 div.exp div.list-exp-left div.exp-box p {
-  padding-top: 10px;
+  padding-top: 25px;
   border-top: 1px solid rgba(0, 0, 0, 0.7);
   text-align: center;
+}
+div.exp div.list-exp-left div.exp-box strong {
+  position: absolute;
+  width: 200px;
+  font-size: 13px;
+  margin-top: 3px;
+  margin-left: 10px;
+  color: #555555;
+  font-weight: normal;
+  font-style: italic;
 }
 div.exp div.list-exp-left div.exp-box div.time-link {
   display: block;
