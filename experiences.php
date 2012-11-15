@@ -3,8 +3,6 @@ $type = "exp";
 require_once('include/header.php');
 require_once('include/nav.php');
 ?>
-
-
 			
 		<div class="span8 offset3 exp">	
 			<h1>Expériences professionnelles</h1>

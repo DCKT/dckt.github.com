@@ -4,12 +4,15 @@ require_once('include/header.php');
 require_once('include/nav.php');
 ?>
 
-		<div data-spy="scroll" class="span8 offset3 contact">
+		<div data-spy="scroll" class="span8 offset3 contact">			
+				<div class="span5 offset7 alert alert-success mail-ok hide">
+					<a href="#" class="close" data-dismiss="alert">×</a>
+				</div>	
 			<header>
 				<h1>Contact</h1>
 			</header>
 			
-			<form action="form/mail.php" method="post" class="form-horizontal span10">
+			<form action="form/mail.php" method="post" class="form-horizontal span10" name="contact_form">
 				<legend>
 					Une question, un contrat freelance, un stage à me proposer ?
 				</legend>
