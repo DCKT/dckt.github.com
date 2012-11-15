@@ -29,7 +29,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="fr.linkedin.com/in/deconinckthomas">
+				<a href="http://fr.linkedin.com/in/deconinckthomas">
 					<img src ="img/social_icone/linkedin.png" alt="LinkedIn" />
 				</a>
 			</li>
@@ -51,9 +51,9 @@
   <div class="navbar-inner">
     <a class="brand" href="#"></a>
     <ul class="nav">
-      <li class="active"><a href="index.php">Home</a></li>
-      <li><a href="competences.php">Compétences</a></li>
-      <li><a href="realisations.php">Réalisations</a></li>
+      <li class="<?php if($type == "home") { echo "active"; } ?>"><a href="index.php">Home</a></li>
+      <li class="<?php if($type == "comp") { echo "active"; } ?>"><a href="competences.php">Compétences</a></li>
+      <li class="<?php if($type == "real") { echo "active"; } ?>"><a href="realisations.php">Réalisations</a></li>
       <li><a href="experiences.php">Expériences</a></li>
       <li><a href="contact.php">Contact</a></li>
     </ul>

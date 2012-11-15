@@ -19,7 +19,7 @@ require_once('include/nav.php');
 			<p class="full-screen"> 
 				<img src="img/presentation/dck.png" class="img-polaroid" alt="Deconinck Thomas" />
 				Etudiant en 2<sup>ème</sup> année à SUPINFO Lille. Je suis passionné par l'informatique depuis mon plus bas âge. 
-				C'est pourquoi, j'ai décidé d'en faire mon avenir etj'ai obtenu les bases (hardware et software) au Collège Technique St Joseph en faisant un BAC <em>technicien informaticien</em>.
+				C'est pourquoi, j'ai décidé d'en faire mon avenir et j'ai ainsi obtenu les bases (hardware et software) au Collège Technique St Joseph en faisant un BAC <em>technicien informaticien</em>.
 				C'est durant ces études que j'ai découvert par moi-même la programmation.<br />
 				Je suis un adepte du développement web et un initié du développement mobile (iOS) !
 				<br /><br />
