@@ -5640,7 +5640,7 @@ nav.menu-phone ul li {
 }
 @media screen and (max-width: 480px) {
   nav.menu-phone ul li {
-    font-size: 12px;
+    font-size: 11px;
     margin: 0px;
   }
 }
