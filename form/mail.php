@@ -14,12 +14,10 @@ $corps = "<pre> Nom :".$nom." \n Email :".$email." \n\n".$message."</pre>";
 if (!mail("137479@supinfo.com", $sujet, $corps, $headers))
 {
 	$reponse = 'Erreur lors de l\'envoi du mail !';
-	header('Location:../contact.php');
 }
 else
 {	
 	$reponse = 'Mail envoyé !';
-	header('Location:../contact.php');
 }
 
 
