@@ -1,5 +1,6 @@
 <?php 
 $type = "home"; 
+$description = "Je m'appelle Deconinck Thomas, développeur web/mobile, retrouvez mes différentes compétences/réalisations/expériences à travers ce site.";
 require_once('include/header.php');
 require_once('include/nav.php');
 ?>

@@ -1,4 +1,5 @@
 <?php $type = "real"; 
+$description = "Découvrez mes différents projets que j'ai réalisé au fil des années";
 require_once('include/header.php');
 require_once('include/nav.php');
 ?>

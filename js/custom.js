@@ -22,7 +22,6 @@ $(document).ready(function() {
 		e.preventDefault();
 		
 		$.post($(this).attr('action'), $(this).serializeArray(), function(data) {
-			console.debug('lancé');
 			$('div.contact div.mail-ok').html('Mail envoyé ! <a href="#" class="close" data-dismiss="alert">×</a>').show();	
 		    $("form[name=contact_form] input[type!=submit]").val('');
 		    $("form[name=contact_form] textarea").val('');

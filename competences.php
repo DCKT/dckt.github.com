@@ -1,4 +1,5 @@
 <?php $type = "comp"; 
+$description = "Retrouvez mes différentes compétences dans le domaine de l'informatique et la programmation.";
 require_once('include/header.php');
 require_once('include/nav.php');
 ?>

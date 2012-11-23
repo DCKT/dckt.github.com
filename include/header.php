@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<title>Deconinck Thomas - Développeur web et mobile</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="Retrouvez mes différentes expériences professionnelles dans l'informatique.">
+		<meta name="description" content="<?php echo $description ?>">
 		<meta name="author" content="Deconinck Thomas">
 
 		<link href="css/main.css" rel="stylesheet" />

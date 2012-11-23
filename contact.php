@@ -1,12 +1,13 @@
 <?php 
 $type = "contact"; 
+$description = "Vous avez une question ? Un contrat freelance à proposer ? Un stage ? N'hésitez pas à me contacter !";
 require_once('include/header.php');
 require_once('include/nav.php');
 ?>
 
 		<div data-spy="scroll" class="span8 offset3 contact">			
 				<div class="span5 offset7 alert alert-success mail-ok hide">
-					<a href="#" class="close" data-dismiss="alert">×</a>
+					
 				</div>	
 			<header>
 				<h1>Contact</h1>
