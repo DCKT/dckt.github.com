@@ -31,10 +31,10 @@ require_once('include/nav.php');
 						<td><a href="http://blog.dck.me" target="_blank">http://blog.dck.me</a></td>
 					</tr>
 					<tr>
-						<td>Blog Symfony2</td>
-						<td>Blog avant le transfert vers Wordpress ( Meilleur pour le réferencement )</td>
+						<td>Laboratoire</td>
+						<td>Laboratoire dans lequel je m'expose mes diverses expériences et autres tests.</td>
 						<td>HTML5 / CSS3, JQuery, PHP, Symfony 2, Doctrine 2, GIT</td>
-						<td><a href="http://labs.dck.me/blog" target="_blank">http://labs.dck.me/blog</a></td>
+						<td><a href="http://labs.dck.me" target="_blank">http://labs.dck.me</a></td>
 					</tr>
 					<tr>
 						<td>Diagnostic</td>
