@@ -16,4 +16,15 @@ $(document).ready(function() {
 	$("div.exp div.list-exp-left, div.list-exp-right").animate({
 		'opacity': '1'
 	}, 2500);
+
+	
+	$('div.contact form[name=contact_form]').submit(function (e) {
+		e.preventDefault();
+		
+		$.post($(this).attr('action'), $(this).serializeArray(), function(data) {
+			$('div.contact div.mail-ok').html('Mail envoyé ! <a href="#" class="close" data-dismiss="alert">×</a>').show();	
+		    $("form[name=contact_form] input[type!=submit]").val('');
+		    $("form[name=contact_form] textarea").val('');
+		});
+	});
 });
