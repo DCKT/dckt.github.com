@@ -42,6 +42,12 @@ require_once('include/nav.php');
 						<td>HTML5 / CSS3, JQuery, Twitter Bootstrap, PHP5, Symfony 2, Doctrine 2, GIT</td>
 						<td><a href="http://diagno.dck.me" target="_blank">http://diagno.dck.me</a></td>
 					</tr>
+					<tr>
+						<td>TechThis</td>
+						<td>Site de ma future auto-entreprise, création de sites internet et applications mobiles</td>
+						<td>HTML5 / CSS3, JQuery, PHP5, GIT</td>
+						<td><a href="http://www.techthis.fr" target="_blank">http://www.techthis.fr</a></td>
+					</tr>
 				</tbody>
 			</table>
 		</div>

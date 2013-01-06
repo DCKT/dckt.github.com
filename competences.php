@@ -7,49 +7,107 @@ require_once('include/nav.php');
 		<div class="span8 offset3 comp">
 			<div class="row">
 				<div class="page-header">
-					<h2>Langages :</h2>
+					<h2>Développement Front-end :</h2>
 				</div>
-				<ul>
-					<li><img src="img/logo/html.png" alt="HTML5" /></li>
-					<li><img src="img/logo/css.png" alt="CSS3" /></li>
-					<li><img src="img/logo/js.jpeg" alt="Javascript" /></li>
-					<li><img src="img/logo/coffee.png" alt="CoffeeScript" /></li>
-				</ul>
-				<ul>
-					<li><img src="img/logo/less.png" alt="LESS" /></li>
-					<li><img src="img/logo/jquery.png" alt="jQuery" /></li>
-					<li><img src="img/logo/php.png" alt="PHP5" /></li>
-					<li><img src="img/logo/mysql.png" alt="MySQL" /></li>
-					<li><img src="img/logo/sf.png" alt="Symfony 2" /></li>
-					<li><img src="img/logo/objective-c.jpeg" /></li>
-				</ul>
+				<div class="content-chart">
+					<ul class="legend">
+						<li>AVANCE</li>
+						<li>INTERMEDIAIRE</li>
+						<li>DEBUTANT</li>
+					</ul>
+					<ul class="legend-element">
+						<li>HTML5 / CSS3</li>
+						<li>LESS</li>
+						<li>JS / JQuery</li>
+						<li>CoffeeScript</li>
+						<li>Backbone.js</li>
+					</ul>
+
+					<ul class="level-element">
+						<li class="high"></li>
+						<li class="high"></li>
+						<li class="high"></li>
+						<li class="medium"></li>
+						<li class="begin"></li>
+					</ul>
+				</div>
+
+				<div class="page-header">
+					<h2>Développement Back-end :</h2>
+				</div>
+
+				<div class="content-chart">
+					<ul class="legend">
+						<li>AVANCE</li>
+						<li>INTERMEDIAIRE</li>
+						<li>DEBUTANT</li>
+					</ul>
+					<ul class="legend-element">
+						<li>PHP5</li>
+						<li>MySQL</li>
+						<li>Symfony 2</li>
+						<li>Objective-C</li>
+					</ul>
+
+					<ul class="level-element">
+						<li class="medium"></li>
+						<li class="medium"></li>
+						<li class="medium"></li>
+						<li class="medium"></li>
+					</ul>
+				</div>
 			</div>
 			<div class="row">
 				<div class="page-header">
 					<h2>Outils :</h2>
 				</div>
-				<ul>
-					<li><img src="img/logo/git.png" alt="GIT" /></li>
-					<li><img src="img/logo/photshop.png" alt="photoshop" /></li>
-					<li><img src="img/logo/xcode.png" alt="XCode" /></li>
-					<li><img src="img/logo/sublim.png" alt="Sublime Text 2" /></li>
-				</ul>
+				<div class="content-chart">
+					<ul class="legend">
+						<li>AVANCE</li>
+						<li>INTERMEDIAIRE</li>
+						<li>DEBUTANT</li>
+					</ul>
+					<ul class="legend-element">
+						<li>GIT</li>
+						<li>Photoshop</li>
+						<li>Illustrator</li>
+						<li>Sublim Text 2</li>
+						<li>Xcode</li>
+					</ul>
+
+					<ul class="level-element">
+						<li class="high"></li>
+						<li class="medium"></li>
+						<li class="begin"></li>
+						<li class="high"></li>
+						<li class="medium"></li>
+					</ul>
+				</div>
 			</div>
 			<div class="row">
 				<div class="page-header">
 					<h2>Environnements :</h2>
 				</div>
-				<ul>
-					<li><img src="img/logo/ml.jpeg" alt="OS X Mountail Lion" /></li>
-					<li><img src="img/logo/lion.jpeg" alt="OS X Lion" /></li>
-					<li><img src="img/logo/win7.png" alt="Windows 7" /></li>
-					<li><img src="img/logo/winserv.jpeg" alt="Windows Server" /></li>
-				</ul>
-				<ul>
-					<li><img src="img/logo/ubuntu.png" alt="Ubuntu" /></li>
-					<li><img src="img/logo/suse_logo.png" alt="Suse" /></li>
-					<li><img src="img/logo/mandriva.jpeg" alt="Mandriva" /></li>
-				</ul>
+				<div class="content-chart">
+					<ul class="legend">
+						<li>AVANCE</li>
+						<li>INTERMEDIAIRE</li>
+						<li>DEBUTANT</li>
+					</ul>
+					<ul class="legend-element">
+						<li>Windows XP/7</li>
+						<li>OS X (Lion, ML)</li>
+						<li>Ubuntu, Debian</li>
+						<li>Server 2003/2008</li>
+					</ul>
+
+					<ul class="level-element">
+						<li class="high"></li>
+						<li class="high"></li>
+						<li class="medium"></li>
+						<li class="begin"></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 

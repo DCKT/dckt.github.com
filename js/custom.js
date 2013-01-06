@@ -27,4 +27,9 @@ $(document).ready(function() {
 		    $("form[name=contact_form] textarea").val('');
 		});
 	});
+
+	$("ul.level-element").fadeIn("fast").animate({
+		'margin-top':'285px',
+
+	}, 1000);
 });
