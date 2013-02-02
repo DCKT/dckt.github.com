@@ -2,3 +2,4 @@
 script-ck.js
 .DS_Store
 .gitignore~
+.DS*
