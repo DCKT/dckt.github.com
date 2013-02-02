@@ -1,0 +1,72 @@
+#home
+	.main-page
+		padding-top: 50px
+		@include center
+		padding: 80px 0 80px 0
+		border-bottom: 5px solid $main-color
+		position: relative
+		border-radius: 2px
+		top: -500px
+		box-shadow: 0px 2px 2px -2px rgba(24,24,24,0.8)
+
+		&:before
+			content: "'"
+			position: absolute
+			bottom: -30px
+			width: 0
+			height: 0
+			border-left: 29px solid transparent
+			border-right: 30px solid transparent
+			border-top: 30px solid $main-color
+			color: transparent
+			left: 48%
+			z-index: 15
+
+		.arrow-hide
+			width: 30px
+			height: 30px
+			color: transparent
+			position: absolute
+			bottom: -15px
+			left: 49.5%
+			@include rotate(45deg)
+			z-index: 18
+			background-image: url('../ressources/textures/background.png')
+		.main-left
+			opacity: 0
+			float: left
+			width: 45%
+			img
+				padding-left: 125px
+				display: block
+
+		.main-right
+			position: relative
+			right: -300px
+			width: 55%
+			float: right
+			opacity: 0
+
+			h1.title
+				display: block
+				@include center
+				padding-top: 20px
+				@include new-font(115px, $main-color)
+				border-left: 10px solid $main-color
+				padding-left: 25px
+				margin-top: 15px
+
+				small
+					font-size: 55px
+					display: block
+					padding: 0 0 3px 5px
+					font-style: italic 
+
+		.subtitle
+			width: 100%
+			clear: both
+			@include center
+			text-align: center
+			padding-top: 100px
+			h2
+				@include new-font(55px, $main-color)

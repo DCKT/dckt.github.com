@@ -1,0 +1,4 @@
+h1.font1 {
+	color: white;
+	@include new-font(100px)
+}

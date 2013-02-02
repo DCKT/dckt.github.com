@@ -1,0 +1,54 @@
+!!! 5
+%html
+	%head
+		%title Thomas Deconinck - Web developer
+		%meta{:charset => "utf-8"}
+		%link{:rel => 'stylesheet', :href => 'css/reset.css'}
+		%link{:rel => 'stylesheet', :href => 'css/style.css'}
+		%script{:src => 'js/jquery.js'}
+		%script{:src => 'js/app.js'}
+		%script{:src => 'js/parallax.js'}
+	%body
+		%nav
+			%ul
+				%li About
+				%li Realisations
+				%li Skills
+				%li Experiences
+				%li Contact
+		%div{:class => 'page', :id => 'home'}
+			%div{:class => 'container'}
+				%div{:class => 'main-page page'}
+					%div{:class => 'arrow-hide'}
+						,
+					%div{:class => 'main-left'}
+						%img{:src => 'ressources/img/hi.png'}
+					%div{:class => 'main-right'}
+						%h1{:class => 'title'} 
+							%small I'm
+							Thomas <br />Deconinck
+					%div{:class => 'subtitle'}
+						%h2 Web Developer & JavaScript lover
+
+		%div{:id => 'about', :class => 'page'}
+			%div{:class => 'container'}
+				%h1{:class => 'title-part'} About me
+				%div{:class => 'quote'}
+					%p
+						I'm 20 years-old, I'm student at SUPINFO Lille (2<sup>dne</sup> year).
+						Computer science is my passion since my childhood.
+						As a real french man, I love cheese but the Japanese and Chineese food too !
+						<br /><br />
+						I'm very interested by JavaScript technologies, because we can do anything !
+
+		%div{:id => 'realisation', :class => 'page'}
+			%div{:class => 'container'}
+				%h1{:class => 'title-part'} Realisations
+
+		%div{:id => 'skill', :class => 'page'}
+			%div{:class => 'container'}
+				%h1{:class =>'title-part'}Skills
+
+		%div{:id => 'experiences', :class => 'page'}
+			%div{:class => 'container'}
+				%h1{:class =>'title-part'}Experiences
