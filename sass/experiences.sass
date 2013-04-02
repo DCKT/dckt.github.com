@@ -1,0 +1,85 @@
+#experiences
+	.exp-list
+		margin-top: 30%
+		width: 100%
+
+		.timeline
+			width: 97%
+			height: 10px
+			background-color: $main-color
+			box-shadow: 0px 2px 9px rgba(24,24,24,0.3)
+			position: relative
+
+			&:after
+				content: "'"
+				display: block
+				position: absolute
+				right: -50px
+				top: -20px
+				color: transparent
+				border-right: 30px solid transparent
+				border-left: 30px solid transparent
+				border-top: 34px solid $main-color
+				@include rotate(-90deg)
+
+		ul
+			margin-left: 100px
+
+			li.exp
+				display: block
+				background: $main-color
+				border: 5px solid $main-color
+				width: 280px
+				border-radius: 2px
+				color: #343434
+				padding: 5px
+				position: relative
+				font-family: "Mission Gothic Bold"
+				box-shadow: 0px 0px 13px rgba(24,24,24,0.5)
+				border: 5px solid rgba(24,24,24,0.8)
+				float: left
+
+				strong, small
+					display: block
+					padding-bottom: 5px
+					margin-left: auto
+					margin-right: auto
+					width: 80%
+			
+				p 
+					font-family: "Mission Gothic"
+
+				&.exp-bot
+					margin-top: 50px
+					margin-right: 40px
+					&:before
+						content: "'"
+						color: transparent
+						height: 55px
+						width: 5px
+						background-color: rgba(48,48,48,0.8)
+						position: absolute
+						top: -60px
+						left: 138px
+
+				&.exp-top
+					margin-top: -235px
+					margin-left: -165px
+					&:before
+						content: "'"
+						color: transparent
+						height: 63px
+						width: 5px
+						background-color: rgba(48,48,48,0.8)
+						position: absolute
+						top: 164px
+						left: 138px
+				
+				h2 
+					text-align: center
+					font-size: 19px
+					width: 80%
+					border-bottom: 1px solid black
+					padding: 3px
+					padding-bottom: 8px
+					margin: 0 auto 10px auto

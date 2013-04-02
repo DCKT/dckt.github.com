@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Thomas Deconinck - Web developer</title>
+    <meta charset='utf-8'>
+    <link href='css/reset.css' rel='stylesheet'>
+    <link href='css/style.css' rel='stylesheet'>
+    <script src='js/jquery-ck.js'></script>
+    <script src='js/app.js'></script>
+    <script src='js/transit.js'></script>
+    <script src='js/treehouse_badge.js'></script>
+    <meta content='Deconinck Thomas, Web Developer (Rails, JavaScript). Student at SUPINFO Lille. ' name='description'>
+  </head>
+  <body>
+    <a href='https://plus.google.com/111939070562235349440/about' id='google' rel='me'>Google +</a>
+    <nav>
+      <ul class='nav'>
+        <li>
+          <a href='#about' id='ab'>About</a>
+        </li>
+        <li>
+          <a href='#realisation' id='real'>Realisations</a>
+        </li>
+        <li>
+          <a href='#skill' id='ski'>Skills</a>
+        </li>
+        <li>
+          <a href='#experiences' id='exp'>Experiences</a>
+        </li>
+        <li>
+          <a href='#contact' id='cont'>Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class='bg-hide page' id='contact'>
+      <div class='container'>
+        <div class='form'>
+          <div class='exit'>X</div>
+          <aside class='left'>
+            <form action='form/mail.php' method='post'>
+              <input name='nom' placeHolder='Your name' type='text'><br /></input>
+              <input name='email' placeHolder='Your email' required='true' type='email'><br /></input>
+              <textarea name='message' placeHolder='Your message' required='true'></textarea>
+              <br />
+              <input id='btn' type='submit' value='Get in touch !'>
+            </form>
+          </aside>
+          <aside class='right'>
+            <h3>Phone</h3>
+            <strong>06 59 51 96 44</strong>
+            <br />
+            <h3>Email</h3>
+            <strong>thomas.deconinck@supinfo.com</strong>
+          </aside>
+        </div>
+      </div>
+    </div>
+    <div class='page' id='home'>
+      <div class='container'>
+        <div class='main-page page'>
+          <div class='arrow-hide'>
+            ,
+          </div>
+          <div class='main-left'>
+            <img src='ressources/img/hi.png'>
+          </div>
+          <div class='main-right'>
+            <h1 class='title'>
+              <small>I'm</small>
+              Thomas <br />Deconinck
+            </h1>
+          </div>
+          <div class='subtitle'>
+            <h2>Web Developer & JavaScript lover</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='page' id='about'>
+      <div class='container'>
+        <h1 class='title-part'>About me</h1>
+        <div class='quote'>
+          <p>
+            I'm 20 years-old, student at SUPINFO Lille (2<sup>dne</sup> year).
+            Computer science is my passion since my childhood. I like great web design.<br />
+            I love movies, TV, mangas, Japanese meal and JavaScript !
+            <br /><br />
+            I'm very interested by JavaScript technologies, because we can do anything !
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class='page' id='realisation'>
+      <div class='container'>
+        <h1 class='title-part'>Realisations</h1>
+        <div class='list'>
+          <ul class='real-list'>
+            <li>
+              <img alt='Laboratory' src='ressources/realisations/1.png'>
+              <div class='info-real'>
+                <h3>Laboratory</h3>
+                <p>Website where I put my homemade experiences</p>
+                <ul class='tags'>
+                  <li class='btn'>HTML5</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <img alt='Diagnostic' src='ressources/realisations/2.png'>
+              <div class='info-real'>
+                <h3>Diagnostic</h3>
+              </div>
+            </li>
+            <li>
+              <img alt='My tumblr blog' src='ressources/realisations/3.png'>
+              <div class='info-real'>
+                <h3>Blog</h3>
+              </div>
+            </li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class='page' id='skill'>
+      <div class='container'>
+        <h1 class='title-part'>Skills</h1>
+        <img id='loader' src='ressources/img/ajax-loader.gif'>
+        <div class='logos'>
+          <ul class='badges'></ul>
+        </div>
+      </div>
+    </div>
+    <div class='page' id='experiences'>
+      <div class='container'>
+        <h1 class='title-part'>Experiences</h1>
+        <div class='exp-list'>
+          <div class='timeline'></div>
+          <ul>
+            <li class='exp exp-bot'>
+              <h2>Front-end developer</h2>
+              <small>March 2012 to July 2012</small>
+              <strong>Dowith - Villeneuve D'Ascq</strong>
+              <p>
+                Create professional website for the company.
+              </p>
+            </li>
+            <li class='exp exp-top'>
+              <h2>Symfony Integrator and iOS developer</h2>
+              <small>July to October 2012</small>
+              <strong>Dowith - Villeneuve D'Ascq</strong>
+              <p>
+                Update website of the company, prepare the migration to SF 2.1 and create iOS app (not finished).
+              </p>
+            </li>
+            <li class='exp exp-bot'>
+              <h2>Front-end developer</h2>
+              <small>March 2013 to today</small>
+              <strong>Incube - Tourcoing</strong>
+              <p>
+                Create user interface for web application with Ember.JS
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

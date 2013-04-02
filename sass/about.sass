@@ -1,0 +1,30 @@
+#about
+	.quote
+		margin-top: 60px
+		color: $main-color
+		width: 81%
+		@include center
+		position: relative
+
+		&:before
+			content: " \" "
+			@include new-font(215px, $main-color)
+			position: absolute
+			font-style: italic
+			margin-left: -120px
+			margin-top: -20px
+
+		&:after
+			content: " \" "
+			@include new-font(215px, $main-color)
+			position: absolute
+			font-style: italic
+			right: -40px
+
+		p 
+			@include new-font(30px, $main-color)
+			font-family: "Denk One"
+			line-height: 40px
+			sup
+				vertical-align: super
+				font-size: smaller

@@ -1,0 +1,123 @@
+!!! 5
+%html
+	%head
+		%title Thomas Deconinck - Web developer
+		%meta{:charset => "utf-8"}
+		%link{:rel => 'stylesheet', :href => 'css/reset.css'}
+		%link{:rel => 'stylesheet', :href => 'css/style.css'}
+		%script{:src => 'js/jquery-ck.js'}
+		%script{:src => 'js/app.js'}
+		%script{:src => 'js/transit.js'}
+		%script{:src => 'js/treehouse_badge.js'}
+		%meta{:name => 'description', :content => 'Deconinck Thomas, Web Developer (Rails, JavaScript). Student at SUPINFO Lille. '}
+	%body
+		%a#google{:href => 'https://plus.google.com/111939070562235349440/about', :rel => 'me'}Google +
+		%nav
+			%ul.nav
+				%li
+					%a{:href => "#about", :id => 'ab'}About 
+				%li 
+					%a{:href => '#realisation', :id => 'real'}Realisations
+				%li 
+					%a{:href => '#skill', :id => 'ski'}Skills
+				%li
+					%a{:href => '#experiences', :id => 'exp'}Experiences
+				%li
+					%a{:href => '#contact', :id => 'cont'}Contact
+
+		%div{:class => 'bg-hide page', :id => 'contact'}
+			%div.container
+				%div.form
+					%div.exit X
+					%aside.left
+						%form{:action => "form/mail.php", :method => 'post'}
+							%input{:type => "text", :name => "nom", :placeHolder => "Your name"} <br />
+							%input{:type => "email", :name => "email", :placeHolder => "Your email", :required => 'true'} <br />
+							%textarea{:name => "message", :placeHolder => 'Your message', :required => 'true'}
+							<br />
+							%input{:type => "submit", :value => "Get in touch !", :id => 'btn'}
+					%aside.right
+						%h3 Phone
+						%strong 06 59 51 96 44
+						<br />
+						%h3 Email
+						%strong thomas.deconinck@supinfo.com
+
+		%div{:class => 'page', :id => 'home'}
+			%div.container
+				%div{:class => 'main-page page'}
+					%div.arrow-hide
+						,
+					%div.main-left
+						%img{:src => 'ressources/img/hi.png'}
+					%div.main-right
+						%h1.title
+							%small I'm
+							Thomas <br />Deconinck
+					%div.subtitle
+						%h2 Web Developer & JavaScript lover
+
+		%div{:id => 'about', :class => 'page'}
+			%div.container
+				%h1.title-part About me
+				%div.quote
+					%p
+						I'm 20 years-old, student at SUPINFO Lille (2<sup>dne</sup> year).
+						Computer science is my passion since my childhood. I like great web design.<br />
+						I love movies, TV, mangas, Japanese meal and JavaScript !
+						<br /><br />
+						I'm very interested by JavaScript technologies, because we can do anything !
+
+		%div{:id => 'realisation', :class => 'page'}
+			%div.container
+				%h1.title-part Realisations
+				%div.list
+					%ul.real-list
+						%li
+							%img{:src => 'ressources/realisations/1.png', :alt => 'Laboratory'}
+							%div.info-real
+								%h3 Laboratory
+								%p Website where I put my homemade experiences
+								%ul.tags
+									%li.btn HTML5
+						%li
+							%img{:src => 'ressources/realisations/2.png', :alt => 'Diagnostic'}
+							%div.info-real
+								%h3 Diagnostic
+						%li
+							%img{:src => 'ressources/realisations/3.png', :alt => 'My tumblr blog'}
+							%div.info-real
+								%h3 Blog
+						%li
+
+		%div{:id => 'skill', :class => 'page'}
+			%div{:class => 'container'}
+				%h1.title-part Skills
+				%img#loader{:src => 'ressources/img/ajax-loader.gif'}
+				%div.logos
+					%ul.badges
+
+		%div{:id => 'experiences', :class => 'page'}
+			%div.container
+				%h1.title-part Experiences
+				%div.exp-list
+					%div.timeline
+					%ul
+						%li.exp.exp-bot
+							%h2 Front-end developer
+							%small March 2012 to July 2012 
+							%strong Dowith - Villeneuve D'Ascq
+							%p
+								Create professional website for the company.
+						%li.exp.exp-top
+							%h2 Symfony Integrator and iOS developer
+							%small July to October 2012
+							%strong Dowith - Villeneuve D'Ascq
+							%p
+								Update website of the company, prepare the migration to SF 2.1 and create iOS app (not finished).
+						%li.exp.exp-bot
+							%h2 Front-end developer
+							%small March 2013 to today 
+							%strong Incube - Tourcoing
+							%p
+								Create user interface for web application with Ember.JS

@@ -1,0 +1,37 @@
+nav
+	display: none
+	position: fixed
+	right: 2%
+	top: 10%
+	border: 4px solid $main-color
+	border-radius: 5px
+	z-index: 10000
+	ul
+		li
+			display: block
+			text-align: right
+			border-top: 3px solid $main-color
+			@include new-font(30px, $main-color)
+			text-transform: uppercase
+			cursor: pointer
+
+			a
+				color: inherit
+				text-decoration: none
+				display: block
+				width: 100%
+				height: 100%
+				padding: 15px 20px 10px 0px
+			&:first-child
+				border-top: none
+
+			&:hover
+				background-color: $main-color
+				color: #D95043
+				text-shadow: none
+				
+
+			&.on
+				background-color: $main-color
+				color: #D95043
+				text-shadow: none

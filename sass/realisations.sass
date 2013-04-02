@@ -1,0 +1,56 @@
+.list
+	ul.real-list
+		padding-top: 25px
+
+		li
+			display: inline-block
+			position: relative
+			border: 6px solid $main-color
+			padding: 0
+			margin: 0
+			-webkit-transition: all 0.5s
+			z-index: 50
+			overflow: hidden
+
+			img
+				display: block
+				width: 305px
+				height: 200px
+				-webkit-transform-origin: 0 50%
+				z-index: 10
+
+			.info-real
+				position: absolute
+				top: 203px
+				text-align: center
+				width: 100%
+				height: 100%
+
+				h3
+					@include new-font(30px, $main-color)
+					padding-top: 4px
+					padding-bottom: 10px
+				p
+					font-family: "Denk One"
+					font-size: 14px
+					color: $main-color
+
+				ul.tags
+					position: absolute
+					bottom: 10px
+					width: 100%
+
+					li.btn
+						
+					&:before
+						content: " ' "
+						width: 77px
+						height: 4px
+						background-color: $main-color
+						display: block
+						color: transparent
+						position: absolute
+						margin-top: -15px
+						left: 115px
+						border-radius: 40px 
+						

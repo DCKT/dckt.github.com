@@ -1,24 +1,19 @@
 <?php
 
-$nom = $_POST["nom"];
-$email = $_POST["mail"];
-$message = $_POST["message"];
+if (isset($_POST['mail']) && isset($_POST['message'])):
+	if ($_POST['mail'] == '' && $_POST['message'] == ''):
+		echo 'No !';
+	else :
+		$nom = htmlentities($_POST['nom']);
+		$email = htmlentities($_POST['email']);
+		$message = htmlentities($_POST['message']);
 
-$headers  = 'MIME-Version: 1.0' . "\r\n";
-$headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-$headers .= 'From: '.$nom.' <'.$email.'>'."\r\n\r\n";
+		$message = "<pre>".$message."</pre>";
+		$sujet = $nom." vous a envoyé un message.";
 
-$sujet = $nom." vous a envoyé un message.";
-$corps = "<pre> Nom :".$nom." \n Email :".$email." \n\n".$message."</pre>";
+		mail("137479@supinfo.com", $sujet, $message);
+	endif;
+endif;
 
-if (!mail("137479@supinfo.com", $sujet, $corps, $headers))
-{
-	$reponse = 'Erreur lors de l\'envoi du mail !';
-}
-else
-{	
-	$reponse = 'Mail envoyé !';
-}
-
-
+header('Location:../index.html');
 ?>
